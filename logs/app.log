@@ -1,0 +1,1642 @@
+2026-04-07 09:59:26 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 09:59:26 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 09:59:27 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 09:59:27 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 09:59:29 - gas_mart - ERROR - Error creating user: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 09:59:30 - gas_mart - ERROR - Error creating user: User 'testuser' already exists
+2026-04-07 09:59:30 - gas_mart - ERROR - Error creating user: Invalid role: invalid_role
+2026-04-07 09:59:31 - gas_mart - ERROR - Error deactivating user: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:10:23 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:10:24 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:10:24 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:10:25 - gas_mart - ERROR - Login error: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:10:28 - gas_mart - ERROR - Error creating user: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:10:29 - gas_mart - ERROR - Error creating user: User 'testuser' already exists
+2026-04-07 10:10:29 - gas_mart - ERROR - Error creating user: Invalid role: invalid_role
+2026-04-07 10:10:30 - gas_mart - ERROR - Error deactivating user: type object 'AuditLog' has no attribute 'log_action'
+2026-04-07 10:25:10 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 10:25:10 - gas_mart - INFO - User 'testuser' logged in successfully
+2026-04-07 10:25:10 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=None
+2026-04-07 10:25:11 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 10:25:11 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 10:25:13 - gas_mart - DEBUG - Audit log created: action=user_created, user_id=1
+2026-04-07 10:25:13 - gas_mart - INFO - User 'newuser' created with role 'manager'
+2026-04-07 10:25:14 - gas_mart - ERROR - Error creating user: User 'testuser' already exists
+2026-04-07 10:25:14 - gas_mart - ERROR - Error creating user: Invalid role: invalid_role
+2026-04-07 10:25:15 - gas_mart - DEBUG - Audit log created: action=user_deactivated, user_id=2
+2026-04-07 10:25:15 - gas_mart - INFO - User 'testuser' deactivated
+2026-04-07 10:39:10 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 10:39:10 - gas_mart - INFO - User 'testuser' logged in successfully
+2026-04-07 10:39:10 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=None
+2026-04-07 10:39:11 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 10:39:12 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 10:39:16 - gas_mart - DEBUG - Audit log created: action=user_created, user_id=1
+2026-04-07 10:39:16 - gas_mart - INFO - User 'newuser' created with role 'manager'
+2026-04-07 10:39:17 - gas_mart - ERROR - Error creating user: User 'testuser' already exists
+2026-04-07 10:39:17 - gas_mart - ERROR - Error creating user: Invalid role: invalid_role
+2026-04-07 10:39:18 - gas_mart - DEBUG - Audit log created: action=user_deactivated, user_id=2
+2026-04-07 10:39:18 - gas_mart - INFO - User 'testuser' deactivated
+2026-04-07 10:39:18 - gas_mart - DEBUG - Stock decremented for product 1: -10
+2026-04-07 10:39:19 - gas_mart - ERROR - Error decrementing stock: Insufficient stock for 'Water 500ml'. Available: 100, Requested: 150
+2026-04-07 10:39:19 - gas_mart - INFO - Stock incremented for product 1: +50
+2026-04-07 10:39:19 - gas_mart - DEBUG - Stock decremented for product 1: -95
+2026-04-07 10:39:19 - gas_mart - WARNING - Low stock alert created for 'Water 500ml' (current: 5, threshold: 10)
+2026-04-07 10:39:19 - gas_mart - DEBUG - Stock decremented for product 1: -95
+2026-04-07 10:39:19 - gas_mart - WARNING - Low stock alert created for 'Water 500ml' (current: 5, threshold: 10)
+2026-04-07 10:39:19 - gas_mart - DEBUG - Stock decremented for product 1: -3
+2026-04-07 10:39:19 - gas_mart - DEBUG - Stock decremented for product 1: -95
+2026-04-07 10:39:19 - gas_mart - WARNING - Low stock alert created for 'Water 500ml' (current: 5, threshold: 10)
+2026-04-07 10:39:19 - gas_mart - INFO - Inventory alert 1 marked as resolved
+2026-04-07 10:39:19 - gas_mart - INFO - Product 'Water 500ml' real_price updated: None -> 2.5
+2026-04-07 10:39:19 - gas_mart - INFO - New product added: 'Test Product' (barcode: 6001099)
+2026-04-07 10:39:19 - gas_mart - ERROR - Error adding product: Product with barcode '6001001' already exists
+2026-04-07 11:42:35 - gas_mart - INFO - ============================================================
+2026-04-07 11:42:35 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-07 11:42:35 - gas_mart - INFO - ============================================================
+2026-04-07 11:42:45 - gas_mart - INFO - Database initialized
+2026-04-07 11:42:45 - gas_mart - INFO - Running first-time setup...
+2026-04-07 11:42:45 - gas_mart - INFO - Database tables created
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Voltic Water 500ml
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Club Energy Drink 250ml
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Pringles Original 40g
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Gardenia Bread Loaf
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: MTN Airtime GHS 5
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: MTN Airtime GHS 10
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Mentos Roll
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Marlboro Red 20s
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Dettol Sanitizer 50ml
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Kleenex Tissues 200s
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Total Quartz 1L Engine Oil
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Glade Car Freshener
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Jacob's Creek Biscuits
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Wrigley's Doublemint Gum
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Kit Kat Chocolate
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Coca-Cola 500ml
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Minute Maid Orange Juice 300ml
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Fan Ice Vanilla 100ml
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Tuna Sandwich (ready-made)
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded product: Nescafe Sachet 3-in-1
+2026-04-07 11:42:46 - gas_mart - INFO - Seeded admin user
+2026-04-07 11:42:47 - gas_mart - INFO - Seeded price_list_mode with demo mode
+2026-04-07 11:42:47 - gas_mart - INFO - Database seeding completed successfully
+2026-04-07 11:42:47 - gas_mart - INFO - First run flag created
+2026-04-07 11:42:47 - gas_mart - INFO - First-run setup completed
+2026-04-07 11:43:09 - gas_mart - INFO - Application started successfully
+2026-04-07 11:44:19 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 11:44:19 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 11:44:37 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 11:44:37 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 11:44:37 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x20d4cff5d00> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 11:44:44 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 11:44:44 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 11:44:44 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x20d4cff5c10> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 11:44:52 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 11:44:52 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 11:45:04 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 11:45:04 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 11:45:04 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x20d4cff5a30> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 11:45:51 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 11:45:51 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 11:45:51 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x20d4cff5b20> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 11:47:05 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 11:47:05 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 11:47:14 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 11:47:14 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 11:47:14 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x20d4cff5be0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 11:47:22 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 11:47:22 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 13:38:39 - gas_mart - INFO - ============================================================
+2026-04-07 13:38:39 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-07 13:38:39 - gas_mart - INFO - ============================================================
+2026-04-07 13:38:39 - gas_mart - INFO - Database initialized
+2026-04-07 13:38:39 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-07 13:38:39 - gas_mart - INFO - First-run setup completed
+2026-04-07 13:39:01 - gas_mart - INFO - Application started successfully
+2026-04-07 13:39:49 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 13:39:49 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 13:39:49 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x2bca87782c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 13:42:10 - gas_mart - INFO - ============================================================
+2026-04-07 13:42:10 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-07 13:42:10 - gas_mart - INFO - ============================================================
+2026-04-07 13:42:10 - gas_mart - INFO - Database initialized
+2026-04-07 13:42:10 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-07 13:42:10 - gas_mart - INFO - First-run setup completed
+2026-04-07 13:42:14 - gas_mart - INFO - Application started successfully
+2026-04-07 13:42:38 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=None
+2026-04-07 13:42:38 - gas_mart - WARNING - Login failed: User 'Admin' not found
+2026-04-07 13:42:49 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 13:42:49 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 13:42:49 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x1e9d7860d40> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 13:42:58 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 13:42:58 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 13:43:05 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 13:43:05 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 13:43:11 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 13:43:11 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 13:43:16 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 13:43:16 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 13:43:23 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 13:43:23 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 13:43:35 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 13:43:35 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 14:09:22 - gas_mart - INFO - ============================================================
+2026-04-07 14:09:22 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-07 14:09:22 - gas_mart - INFO - ============================================================
+2026-04-07 14:09:25 - gas_mart - INFO - Database initialized
+2026-04-07 14:09:25 - gas_mart - INFO - Running first-time setup...
+2026-04-07 14:09:25 - gas_mart - INFO - Database tables created
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Voltic Water 500ml
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Club Energy Drink 250ml
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Pringles Original 40g
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Gardenia Bread Loaf
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: MTN Airtime GHS 5
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: MTN Airtime GHS 10
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Mentos Roll
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Marlboro Red 20s
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Dettol Sanitizer 50ml
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Kleenex Tissues 200s
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Total Quartz 1L Engine Oil
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Glade Car Freshener
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Jacob's Creek Biscuits
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Wrigley's Doublemint Gum
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Kit Kat Chocolate
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Coca-Cola 500ml
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Minute Maid Orange Juice 300ml
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Fan Ice Vanilla 100ml
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Tuna Sandwich (ready-made)
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded product: Nescafe Sachet 3-in-1
+2026-04-07 14:09:25 - gas_mart - INFO - Seeded admin user
+2026-04-07 14:09:26 - gas_mart - INFO - Seeded price_list_mode with demo mode
+2026-04-07 14:09:26 - gas_mart - INFO - Database seeding completed successfully
+2026-04-07 14:09:26 - gas_mart - INFO - First run flag created
+2026-04-07 14:09:26 - gas_mart - INFO - First-run setup completed
+2026-04-07 14:09:27 - gas_mart - INFO - Application started successfully
+2026-04-07 14:09:37 - gas_mart - DEBUG - Password verification: True
+2026-04-07 14:09:38 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 14:09:38 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 14:09:38 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x2436e9254c0> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 14:09:42 - gas_mart - DEBUG - Password verification: True
+2026-04-07 14:09:43 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 14:09:43 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 14:09:43 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x2436e925d90> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-07 14:09:46 - gas_mart - DEBUG - Password verification: False
+2026-04-07 14:09:46 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 14:09:46 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 14:09:54 - gas_mart - DEBUG - Password verification: False
+2026-04-07 14:09:56 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-07 14:09:56 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-07 14:10:05 - gas_mart - DEBUG - Password verification: True
+2026-04-07 14:10:06 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-07 14:10:06 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-07 14:10:06 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x2436e925b50> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-08 09:31:28 - gas_mart - INFO - ============================================================
+2026-04-08 09:31:28 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 09:31:28 - gas_mart - INFO - ============================================================
+2026-04-08 09:31:28 - gas_mart - INFO - Database initialized
+2026-04-08 09:31:28 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 09:31:28 - gas_mart - INFO - First-run setup completed
+2026-04-08 09:31:33 - gas_mart - INFO - Application started successfully
+2026-04-08 09:31:44 - gas_mart - DEBUG - Password verification: False
+2026-04-08 09:31:44 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-08 09:31:44 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-08 09:31:50 - gas_mart - DEBUG - Password verification: True
+2026-04-08 09:31:51 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 09:31:51 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 09:31:51 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x223a2059040> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-08 09:32:07 - gas_mart - INFO - ============================================================
+2026-04-08 09:32:07 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 09:32:07 - gas_mart - INFO - ============================================================
+2026-04-08 09:32:07 - gas_mart - INFO - Database initialized
+2026-04-08 09:32:07 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 09:32:07 - gas_mart - INFO - First-run setup completed
+2026-04-08 09:32:07 - gas_mart - INFO - Application started successfully
+2026-04-08 09:32:24 - gas_mart - DEBUG - Password verification: True
+2026-04-08 09:32:24 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 09:32:24 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 09:32:24 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x1fff4558290> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-08 09:32:33 - gas_mart - DEBUG - Password verification: False
+2026-04-08 09:32:33 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-08 09:32:33 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-08 09:32:42 - gas_mart - DEBUG - Password verification: False
+2026-04-08 09:32:42 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-08 09:32:42 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-08 09:32:49 - gas_mart - DEBUG - Password verification: True
+2026-04-08 09:32:49 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 09:32:49 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 09:32:49 - gas_mart - ERROR - Unexpected login error: Instance <User at 0x1fff4558e30> is not bound to a Session; attribute refresh operation cannot proceed (Background on this error at: https://sqlalche.me/e/20/bhk3)
+2026-04-08 09:50:40 - gas_mart - INFO - ============================================================
+2026-04-08 09:50:40 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 09:50:40 - gas_mart - INFO - ============================================================
+2026-04-08 09:50:41 - gas_mart - INFO - Database initialized
+2026-04-08 09:50:41 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 09:50:41 - gas_mart - INFO - First-run setup completed
+2026-04-08 09:50:45 - gas_mart - INFO - Application started successfully
+2026-04-08 09:50:53 - gas_mart - DEBUG - Password verification: True
+2026-04-08 09:50:54 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 09:50:54 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 09:50:54 - gas_mart - INFO - User admin logged in successfully with role None
+2026-04-08 09:50:55 - gas_mart - ERROR - Unexpected login error: cannot import name 'PricingContext' from 'logic.pricing' (C:\Users\hp\gas_mart\logic\pricing.py)
+2026-04-08 09:59:59 - gas_mart - INFO - ============================================================
+2026-04-08 09:59:59 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 09:59:59 - gas_mart - INFO - ============================================================
+2026-04-08 09:59:59 - gas_mart - INFO - Database initialized
+2026-04-08 09:59:59 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 09:59:59 - gas_mart - INFO - First-run setup completed
+2026-04-08 09:59:59 - gas_mart - INFO - Application started successfully
+2026-04-08 10:00:14 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:00:14 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:00:14 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:00:14 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:00:15 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:11:34 - gas_mart - INFO - ============================================================
+2026-04-08 10:11:34 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:11:34 - gas_mart - INFO - ============================================================
+2026-04-08 10:11:34 - gas_mart - INFO - Database initialized
+2026-04-08 10:11:34 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:11:34 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:11:35 - gas_mart - INFO - Application started successfully
+2026-04-08 10:11:58 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:11:58 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:11:58 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:11:58 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:11:58 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:12:29 - gas_mart - INFO - ============================================================
+2026-04-08 10:12:29 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:12:29 - gas_mart - INFO - ============================================================
+2026-04-08 10:12:29 - gas_mart - INFO - Database initialized
+2026-04-08 10:12:29 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:12:29 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:12:30 - gas_mart - INFO - Application started successfully
+2026-04-08 10:12:40 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:12:41 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:12:41 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:12:41 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:12:41 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:13:33 - gas_mart - INFO - ============================================================
+2026-04-08 10:13:33 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:13:33 - gas_mart - INFO - ============================================================
+2026-04-08 10:13:33 - gas_mart - INFO - Database initialized
+2026-04-08 10:13:33 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:13:33 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:13:33 - gas_mart - INFO - Application started successfully
+2026-04-08 10:13:45 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:13:45 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:13:45 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:13:45 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:13:45 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:45:21 - gas_mart - INFO - ============================================================
+2026-04-08 10:45:21 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:45:21 - gas_mart - INFO - ============================================================
+2026-04-08 10:45:23 - gas_mart - INFO - Database initialized
+2026-04-08 10:45:23 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:45:23 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:45:27 - gas_mart - INFO - Application started successfully
+2026-04-08 10:45:36 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:45:37 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:45:37 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:45:37 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:45:37 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:46:19 - gas_mart - INFO - ============================================================
+2026-04-08 10:46:19 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:46:19 - gas_mart - INFO - ============================================================
+2026-04-08 10:46:19 - gas_mart - INFO - Database initialized
+2026-04-08 10:46:19 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:46:19 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:46:20 - gas_mart - INFO - Application started successfully
+2026-04-08 10:46:32 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:46:32 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:46:32 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:46:32 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:46:32 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:48:05 - gas_mart - INFO - ============================================================
+2026-04-08 10:48:05 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:48:05 - gas_mart - INFO - ============================================================
+2026-04-08 10:48:05 - gas_mart - INFO - Database initialized
+2026-04-08 10:48:05 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:48:05 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:48:05 - gas_mart - INFO - Application started successfully
+2026-04-08 10:48:16 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:48:16 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:48:16 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:48:16 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:48:16 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 10:48:40 - gas_mart - INFO - ============================================================
+2026-04-08 10:48:40 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 10:48:40 - gas_mart - INFO - ============================================================
+2026-04-08 10:48:40 - gas_mart - INFO - Database initialized
+2026-04-08 10:48:40 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 10:48:40 - gas_mart - INFO - First-run setup completed
+2026-04-08 10:48:41 - gas_mart - INFO - Application started successfully
+2026-04-08 10:48:51 - gas_mart - DEBUG - Password verification: True
+2026-04-08 10:48:51 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 10:48:51 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 10:48:51 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 10:48:51 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 11:13:59 - gas_mart - INFO - ============================================================
+2026-04-08 11:13:59 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 11:13:59 - gas_mart - INFO - ============================================================
+2026-04-08 11:13:59 - gas_mart - INFO - Database initialized
+2026-04-08 11:13:59 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 11:13:59 - gas_mart - INFO - First-run setup completed
+2026-04-08 11:14:02 - gas_mart - INFO - Application started successfully
+2026-04-08 11:14:11 - gas_mart - DEBUG - Password verification: True
+2026-04-08 11:14:11 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 11:14:11 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 11:14:11 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 11:14:11 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 11:18:52 - gas_mart - INFO - ============================================================
+2026-04-08 11:18:52 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 11:18:52 - gas_mart - INFO - ============================================================
+2026-04-08 11:18:52 - gas_mart - INFO - Database initialized
+2026-04-08 11:18:52 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 11:18:52 - gas_mart - INFO - First-run setup completed
+2026-04-08 11:18:53 - gas_mart - INFO - Application started successfully
+2026-04-08 11:19:05 - gas_mart - DEBUG - Password verification: True
+2026-04-08 11:19:06 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 11:19:06 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 11:19:06 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 11:19:06 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 11:28:16 - gas_mart - INFO - ============================================================
+2026-04-08 11:28:16 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 11:28:16 - gas_mart - INFO - ============================================================
+2026-04-08 11:28:16 - gas_mart - INFO - Database initialized
+2026-04-08 11:28:16 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 11:28:16 - gas_mart - INFO - First-run setup completed
+2026-04-08 11:28:17 - gas_mart - INFO - Application started successfully
+2026-04-08 11:28:27 - gas_mart - DEBUG - Password verification: True
+2026-04-08 11:28:28 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 11:28:28 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 11:28:28 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 11:28:28 - gas_mart - ERROR - Unexpected login error: No module named 'payment_service'
+2026-04-08 11:32:07 - gas_mart - INFO - ============================================================
+2026-04-08 11:32:07 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 11:32:07 - gas_mart - INFO - ============================================================
+2026-04-08 11:32:07 - gas_mart - INFO - Database initialized
+2026-04-08 11:32:07 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 11:32:07 - gas_mart - INFO - First-run setup completed
+2026-04-08 11:32:08 - gas_mart - INFO - Application started successfully
+2026-04-08 11:32:18 - gas_mart - DEBUG - Password verification: True
+2026-04-08 11:32:18 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 11:32:18 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 11:32:18 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 11:32:18 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-08 11:36:08 - gas_mart - INFO - ============================================================
+2026-04-08 11:36:08 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-08 11:36:08 - gas_mart - INFO - ============================================================
+2026-04-08 11:36:08 - gas_mart - INFO - Database initialized
+2026-04-08 11:36:08 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-08 11:36:08 - gas_mart - INFO - First-run setup completed
+2026-04-08 11:36:08 - gas_mart - INFO - Application started successfully
+2026-04-08 11:36:18 - gas_mart - DEBUG - Password verification: False
+2026-04-08 11:36:18 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-08 11:36:18 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-08 11:36:29 - gas_mart - DEBUG - Password verification: True
+2026-04-08 11:36:29 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-08 11:36:29 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-08 11:36:29 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-08 11:36:29 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-13 08:06:09 - gas_mart - INFO - ============================================================
+2026-04-13 08:06:09 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-13 08:06:09 - gas_mart - INFO - ============================================================
+2026-04-13 08:06:09 - gas_mart - INFO - Database initialized
+2026-04-13 08:06:09 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-13 08:06:09 - gas_mart - INFO - First-run setup completed
+2026-04-13 08:06:13 - gas_mart - INFO - Application started successfully
+2026-04-13 08:06:27 - gas_mart - DEBUG - Password verification: True
+2026-04-13 08:06:28 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-13 08:06:28 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-13 08:06:28 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-13 08:06:28 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-13 08:59:35 - gas_mart - INFO - ============================================================
+2026-04-13 08:59:35 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-13 08:59:35 - gas_mart - INFO - ============================================================
+2026-04-13 08:59:35 - gas_mart - INFO - Database initialized
+2026-04-13 08:59:35 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-13 08:59:35 - gas_mart - INFO - First-run setup completed
+2026-04-13 08:59:35 - gas_mart - INFO - Application started successfully
+2026-04-13 08:59:47 - gas_mart - DEBUG - Password verification: True
+2026-04-13 08:59:47 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-13 08:59:47 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-13 08:59:47 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-13 08:59:55 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-13 08:59:55 - gas_mart - INFO - Admin panel opened for admin
+2026-04-13 09:00:18 - gas_mart - DEBUG - Audit log created: action=price_mode_switched_demo, user_id=1
+2026-04-13 09:00:18 - gas_mart - INFO - Demo pricing activated by user 1
+2026-04-13 09:02:05 - gas_mart - DEBUG - Audit log created: action=user_created, user_id=1
+2026-04-13 09:02:05 - gas_mart - INFO - User 'aaron' created with role 'cashier'
+2026-04-14 11:57:25 - gas_mart - INFO - ============================================================
+2026-04-14 11:57:25 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-14 11:57:25 - gas_mart - INFO - ============================================================
+2026-04-14 11:57:25 - gas_mart - INFO - Database initialized
+2026-04-14 11:57:25 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-14 11:57:25 - gas_mart - INFO - First-run setup completed
+2026-04-14 11:57:27 - gas_mart - INFO - Application started successfully
+2026-04-14 11:59:39 - gas_mart - DEBUG - Password verification: True
+2026-04-14 11:59:40 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-14 11:59:40 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-14 11:59:40 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-14 11:59:44 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-14 11:59:44 - gas_mart - INFO - Admin panel opened for admin
+2026-04-14 12:00:03 - gas_mart - INFO - ============================================================
+2026-04-14 12:00:03 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-14 12:00:03 - gas_mart - INFO - ============================================================
+2026-04-14 12:00:03 - gas_mart - INFO - Database initialized
+2026-04-14 12:00:03 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-14 12:00:03 - gas_mart - INFO - First-run setup completed
+2026-04-14 12:00:03 - gas_mart - INFO - Application started successfully
+2026-04-14 12:00:13 - gas_mart - DEBUG - Password verification: False
+2026-04-14 12:00:13 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=2
+2026-04-14 12:00:13 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-14 12:00:18 - gas_mart - DEBUG - Password verification: False
+2026-04-14 12:00:18 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=2
+2026-04-14 12:00:18 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-14 12:00:27 - gas_mart - DEBUG - Password verification: False
+2026-04-14 12:00:27 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=2
+2026-04-14 12:00:27 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-14 12:00:30 - gas_mart - DEBUG - Password verification: True
+2026-04-14 12:00:30 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-14 12:00:30 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-14 12:00:31 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-14 12:12:34 - gas_mart - INFO - ============================================================
+2026-04-14 12:12:34 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-14 12:12:34 - gas_mart - INFO - ============================================================
+2026-04-14 12:12:34 - gas_mart - INFO - Database initialized
+2026-04-14 12:12:34 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-14 12:12:34 - gas_mart - INFO - First-run setup completed
+2026-04-14 12:12:34 - gas_mart - INFO - Application started successfully
+2026-04-14 12:12:42 - gas_mart - DEBUG - Password verification: True
+2026-04-14 12:12:42 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-14 12:12:42 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-14 12:12:42 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-14 12:13:15 - gas_mart - INFO - ============================================================
+2026-04-14 12:13:15 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-14 12:13:15 - gas_mart - INFO - ============================================================
+2026-04-14 12:13:15 - gas_mart - INFO - Database initialized
+2026-04-14 12:13:15 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-14 12:13:15 - gas_mart - INFO - First-run setup completed
+2026-04-14 12:13:15 - gas_mart - INFO - Application started successfully
+2026-04-14 12:13:23 - gas_mart - DEBUG - Password verification: True
+2026-04-14 12:13:23 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-14 12:13:23 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-14 12:13:23 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-14 12:13:23 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-14 12:13:23 - gas_mart - INFO - Admin panel opened for admin
+2026-04-15 09:09:32 - gas_mart - INFO - ============================================================
+2026-04-15 09:09:32 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 09:09:32 - gas_mart - INFO - ============================================================
+2026-04-15 09:09:32 - gas_mart - INFO - Database initialized
+2026-04-15 09:09:32 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 09:09:32 - gas_mart - INFO - First-run setup completed
+2026-04-15 09:09:55 - gas_mart - INFO - Application started successfully
+2026-04-15 09:13:12 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:13:13 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:13:13 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:13:13 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:13:17 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:13:26 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:13:26 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:13:26 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:13:26 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:13:26 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:13:39 - gas_mart - DEBUG - Password verification: False
+2026-04-15 09:13:40 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-15 09:13:40 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-15 09:13:46 - gas_mart - DEBUG - Password verification: False
+2026-04-15 09:13:46 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-15 09:13:46 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-15 09:13:57 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:13:57 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:13:57 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:13:57 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:13:57 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:14:14 - gas_mart - INFO - ============================================================
+2026-04-15 09:14:14 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 09:14:14 - gas_mart - INFO - ============================================================
+2026-04-15 09:14:14 - gas_mart - INFO - Database initialized
+2026-04-15 09:14:14 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 09:14:14 - gas_mart - INFO - First-run setup completed
+2026-04-15 09:14:14 - gas_mart - INFO - Application started successfully
+2026-04-15 09:14:30 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:14:30 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-15 09:14:30 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-15 09:14:30 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-15 09:14:30 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:29:36 - gas_mart - INFO - ============================================================
+2026-04-15 09:29:36 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 09:29:36 - gas_mart - INFO - ============================================================
+2026-04-15 09:29:36 - gas_mart - INFO - Database initialized
+2026-04-15 09:29:36 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 09:29:36 - gas_mart - INFO - First-run setup completed
+2026-04-15 09:29:36 - gas_mart - INFO - Application started successfully
+2026-04-15 09:29:48 - gas_mart - DEBUG - Password verification: False
+2026-04-15 09:29:49 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-15 09:29:49 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-15 09:29:56 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:29:57 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:29:57 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:29:57 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:29:57 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:30:12 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:30:12 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-15 09:30:12 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-15 09:30:12 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-15 09:30:12 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:32:36 - gas_mart - INFO - ============================================================
+2026-04-15 09:32:36 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 09:32:36 - gas_mart - INFO - ============================================================
+2026-04-15 09:32:36 - gas_mart - INFO - Database initialized
+2026-04-15 09:32:36 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 09:32:36 - gas_mart - INFO - First-run setup completed
+2026-04-15 09:32:36 - gas_mart - INFO - Application started successfully
+2026-04-15 09:32:48 - gas_mart - DEBUG - Password verification: False
+2026-04-15 09:32:48 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-15 09:32:48 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-15 09:32:52 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:32:52 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:32:52 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:32:52 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:32:52 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:33:02 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:33:02 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:33:02 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:33:02 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:33:02 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:33:12 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:33:12 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-15 09:33:12 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-15 09:33:12 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-15 09:33:12 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:33:33 - gas_mart - INFO - ============================================================
+2026-04-15 09:33:33 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 09:33:33 - gas_mart - INFO - ============================================================
+2026-04-15 09:33:33 - gas_mart - INFO - Database initialized
+2026-04-15 09:33:33 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 09:33:33 - gas_mart - INFO - First-run setup completed
+2026-04-15 09:33:33 - gas_mart - INFO - Application started successfully
+2026-04-15 09:33:43 - gas_mart - DEBUG - Password verification: False
+2026-04-15 09:33:43 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-15 09:33:43 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-15 09:33:49 - gas_mart - DEBUG - Password verification: False
+2026-04-15 09:33:49 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-04-15 09:33:49 - gas_mart - WARNING - Login failed: Incorrect password
+2026-04-15 09:33:58 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:33:58 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:33:58 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:33:58 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:33:58 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:34:10 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:34:10 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-15 09:34:10 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-15 09:34:10 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-15 09:34:10 - gas_mart - ERROR - Unexpected login error: cannot import name 'PaymentError' from 'payments.base' (C:\Users\hp\gas_mart\payments\base.py)
+2026-04-15 09:59:05 - gas_mart - INFO - ============================================================
+2026-04-15 09:59:05 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 09:59:05 - gas_mart - INFO - ============================================================
+2026-04-15 09:59:05 - gas_mart - INFO - Database initialized
+2026-04-15 09:59:05 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 09:59:05 - gas_mart - INFO - First-run setup completed
+2026-04-15 09:59:06 - gas_mart - INFO - Application started successfully
+2026-04-15 09:59:20 - gas_mart - DEBUG - Password verification: True
+2026-04-15 09:59:20 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 09:59:20 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 09:59:20 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 09:59:27 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-15 09:59:27 - gas_mart - INFO - Admin panel opened for admin
+2026-04-15 10:06:26 - gas_mart - INFO - ============================================================
+2026-04-15 10:06:26 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 10:06:26 - gas_mart - INFO - ============================================================
+2026-04-15 10:06:26 - gas_mart - INFO - Database initialized
+2026-04-15 10:06:26 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 10:06:26 - gas_mart - INFO - First-run setup completed
+2026-04-15 10:06:26 - gas_mart - INFO - Application started successfully
+2026-04-15 10:06:35 - gas_mart - DEBUG - Password verification: True
+2026-04-15 10:06:35 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-15 10:06:35 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-15 10:06:35 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-15 10:06:36 - gas_mart - DEBUG - PaymentService initialized
+2026-04-15 10:06:36 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-15 10:08:10 - gas_mart - ERROR - Error adding item to cart: 'CartService' object has no attribute 'cart_items'
+2026-04-15 10:08:29 - gas_mart - ERROR - Error adding item to cart: 'CartService' object has no attribute 'cart_items'
+2026-04-15 10:10:29 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-04-15 10:10:29 - gas_mart - INFO - User 2 logged out
+2026-04-15 10:10:39 - gas_mart - INFO - ============================================================
+2026-04-15 10:10:39 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-15 10:10:39 - gas_mart - INFO - ============================================================
+2026-04-15 10:10:39 - gas_mart - INFO - Database initialized
+2026-04-15 10:10:39 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-15 10:10:39 - gas_mart - INFO - First-run setup completed
+2026-04-15 10:10:39 - gas_mart - INFO - Application started successfully
+2026-04-15 10:10:48 - gas_mart - DEBUG - Password verification: True
+2026-04-15 10:10:49 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-15 10:10:49 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-15 10:10:49 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-15 10:10:50 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-15 10:10:50 - gas_mart - INFO - Admin panel opened for admin
+2026-04-16 08:00:17 - gas_mart - INFO - ============================================================
+2026-04-16 08:00:18 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-16 08:00:18 - gas_mart - INFO - ============================================================
+2026-04-16 08:00:18 - gas_mart - INFO - Database initialized
+2026-04-16 08:00:18 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-16 08:00:18 - gas_mart - INFO - First-run setup completed
+2026-04-16 08:00:59 - gas_mart - INFO - Application started successfully
+2026-04-16 08:01:54 - gas_mart - DEBUG - Password verification: True
+2026-04-16 08:01:56 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-16 08:01:56 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-16 08:01:56 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-16 08:02:53 - gas_mart - DEBUG - PaymentService initialized
+2026-04-16 08:02:53 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-16 08:07:41 - gas_mart - ERROR - Error adding item to cart: 'CartService' object has no attribute 'cart_items'
+2026-04-16 08:08:09 - gas_mart - ERROR - Error adding item to cart: 'CartService' object has no attribute 'cart_items'
+2026-04-16 09:27:51 - gas_mart - INFO - ============================================================
+2026-04-16 09:27:51 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-16 09:27:51 - gas_mart - INFO - ============================================================
+2026-04-16 09:27:51 - gas_mart - INFO - Database initialized
+2026-04-16 09:27:51 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-16 09:27:51 - gas_mart - INFO - First-run setup completed
+2026-04-16 09:28:01 - gas_mart - INFO - Application started successfully
+2026-04-16 09:28:40 - gas_mart - DEBUG - Password verification: True
+2026-04-16 09:28:41 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-16 09:28:41 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-16 09:28:41 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-16 09:28:49 - gas_mart - DEBUG - PaymentService initialized
+2026-04-16 09:28:50 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-16 09:34:52 - gas_mart - INFO - Sale 1 created with 3 items
+2026-04-16 09:34:53 - gas_mart - DEBUG - Sale 1 transitioned: pending -> processing
+2026-04-16 09:34:53 - gas_mart - ERROR - Cash payment error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 1, 'status': 'completed', 'payment_method': 'cash', 'amount_ghs': 168.0, 'paid_at': 1776332093.2846386, 'customer_phone': None, 'mobile_money_network': None, 'transaction_ref': None}]]
+2026-04-16 09:35:00 - gas_mart - DEBUG - Sale 1 transitioned: processing -> failed
+2026-04-16 09:35:04 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-04-16 09:36:52 - gas_mart - ERROR - Payment processing error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 1, 'status': 'completed', 'payment_method': 'cash', 'amount_ghs': 168.0, 'paid_at': 1776332093.2846386, 'customer_phone': None, 'mobile_money_network': None, 'transaction_ref': None}]]
+2026-04-16 09:37:25 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260416-0001.pdf
+2026-04-16 09:37:25 - gas_mart - INFO - Receipt issued: RCP-20260416-0001 (pdf)
+2026-04-16 09:52:37 - gas_mart - INFO - Sale 2 created with 1 items
+2026-04-16 09:52:38 - gas_mart - DEBUG - Sale 2 transitioned: pending -> processing
+2026-04-16 09:52:39 - gas_mart - ERROR - Card payment error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 2, 'transaction_ref': 'CARD-1776333159', 'status': 'completed', 'payment_method': 'card', 'amount_ghs': 18.0, 'paid_at': 1776333159.7591426, 'customer_phone': None, 'mobile_money_network': None}]]
+2026-04-16 09:52:40 - gas_mart - DEBUG - Sale 2 transitioned: processing -> failed
+2026-04-16 09:52:40 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-04-16 09:52:43 - gas_mart - ERROR - Payment processing error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 2, 'transaction_ref': 'CARD-1776333159', 'status': 'completed', 'payment_method': 'card', 'amount_ghs': 18.0, 'paid_at': 1776333159.7591426, 'customer_phone': None, 'mobile_money_network': None}]]
+2026-04-16 09:53:06 - gas_mart - INFO - Sale 3 created with 1 items
+2026-04-16 09:53:18 - gas_mart - DEBUG - Sale 3 transitioned: pending -> processing
+2026-04-16 09:53:19 - gas_mart - DEBUG - Audit log created: action=payment_initiated, user_id=2
+2026-04-16 09:53:19 - gas_mart - INFO - Telecel payment initiated: ref=TEL-IJI2CD9I, phone=0201020958, amount=5.0
+2026-04-16 09:53:20 - gas_mart - INFO - Polling telecel payment status: TEL-IJI2CD9I
+2026-04-16 09:53:22 - gas_mart - INFO - Telecel payment succeeded: TEL-IJI2CD9I
+2026-04-16 09:53:22 - gas_mart - ERROR - Mobile money payment error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: UPDATE payments SET status=?, paid_at=? WHERE payments.id = ?]
+[parameters: [{'paid_at': 1776333202.3621714, 'status': 'completed', 'payments_id': 1}]]
+2026-04-16 09:53:47 - gas_mart - INFO - Sale 4 created with 1 items
+2026-04-16 09:53:55 - gas_mart - DEBUG - Sale 4 transitioned: pending -> processing
+2026-04-16 09:53:55 - gas_mart - DEBUG - Audit log created: action=payment_initiated, user_id=2
+2026-04-16 09:53:55 - gas_mart - ERROR - MTN initiate error: Invalid MTN phone number: 0201020958
+2026-04-16 09:53:55 - gas_mart - ERROR - Mobile money payment error: MTN payment initiation failed: Invalid MTN phone number: 0201020958
+2026-04-16 09:55:27 - gas_mart - INFO - Sale 5 created with 4 items
+2026-04-16 09:55:28 - gas_mart - DEBUG - Sale 5 transitioned: pending -> processing
+2026-04-16 09:55:29 - gas_mart - ERROR - Card payment error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 5, 'transaction_ref': 'CARD-1776333329', 'status': 'completed', 'payment_method': 'card', 'amount_ghs': 310.0, 'paid_at': 1776333329.0171292, 'customer_phone': None, 'mobile_money_network': None}]]
+2026-04-16 09:55:29 - gas_mart - DEBUG - Sale 5 transitioned: processing -> failed
+2026-04-16 09:55:29 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-04-16 09:55:32 - gas_mart - ERROR - Payment processing error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 5, 'transaction_ref': 'CARD-1776333329', 'status': 'completed', 'payment_method': 'card', 'amount_ghs': 310.0, 'paid_at': 1776333329.0171292, 'customer_phone': None, 'mobile_money_network': None}]]
+2026-04-16 09:57:00 - gas_mart - INFO - Sale 6 created with 3 items
+2026-04-16 09:57:03 - gas_mart - DEBUG - Sale 6 transitioned: pending -> processing
+2026-04-16 09:57:03 - gas_mart - ERROR - Cash payment error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 6, 'status': 'completed', 'payment_method': 'cash', 'amount_ghs': 198.0, 'paid_at': 1776333423.6816096, 'customer_phone': None, 'mobile_money_network': None, 'transaction_ref': None}]]
+2026-04-16 09:57:04 - gas_mart - DEBUG - Sale 6 transitioned: processing -> failed
+2026-04-16 09:57:06 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-04-16 09:57:25 - gas_mart - ERROR - Payment processing error: (builtins.TypeError) SQLite DateTime type only accepts Python datetime and date objects as input.
+[SQL: INSERT INTO payments (sale_id, payment_method, mobile_money_network, customer_phone, transaction_ref, amount_ghs, status, paid_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: [{'sale_id': 6, 'status': 'completed', 'payment_method': 'cash', 'amount_ghs': 198.0, 'paid_at': 1776333423.6816096, 'customer_phone': None, 'mobile_money_network': None, 'transaction_ref': None}]]
+2026-04-16 11:17:17 - gas_mart - INFO - ============================================================
+2026-04-16 11:17:17 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-16 11:17:17 - gas_mart - INFO - ============================================================
+2026-04-16 11:17:18 - gas_mart - INFO - Database initialized
+2026-04-16 11:17:18 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-16 11:17:18 - gas_mart - INFO - First-run setup completed
+2026-04-16 11:17:35 - gas_mart - INFO - Application started successfully
+2026-04-16 11:17:47 - gas_mart - DEBUG - Password verification: True
+2026-04-16 11:17:48 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-16 11:17:48 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-16 11:17:48 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-16 11:17:58 - gas_mart - DEBUG - PaymentService initialized
+2026-04-16 11:17:58 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-16 11:23:22 - gas_mart - INFO - Sale 7 created with 4 items
+2026-04-16 11:23:23 - gas_mart - DEBUG - Sale 7 transitioned: pending -> processing
+2026-04-16 11:23:23 - gas_mart - DEBUG - Sale 7 transitioned: processing -> completed
+2026-04-16 11:23:24 - gas_mart - DEBUG - Stock decremented for product 4: -1
+2026-04-16 11:23:25 - gas_mart - DEBUG - Stock decremented for product 17: -1
+2026-04-16 11:23:26 - gas_mart - DEBUG - Stock decremented for product 19: -17
+2026-04-16 11:23:26 - gas_mart - DEBUG - Stock decremented for product 10: -8
+2026-04-16 11:23:27 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-16 11:23:27 - gas_mart - INFO - Cash payment processed for sale 7. Change: 73.5
+2026-04-16 11:23:40 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260416-0007.pdf
+2026-04-16 11:23:40 - gas_mart - INFO - Receipt issued: RCP-20260416-0007 (pdf)
+2026-04-16 11:25:05 - gas_mart - INFO - Sale 8 created with 2 items
+2026-04-16 11:25:05 - gas_mart - DEBUG - Sale 8 transitioned: pending -> processing
+2026-04-16 11:25:05 - gas_mart - ERROR - Cash payment error: Insufficient payment. Required: 126.0, Tendered: 100.0
+2026-04-16 11:25:07 - gas_mart - DEBUG - Sale 8 transitioned: processing -> failed
+2026-04-16 11:25:07 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-04-16 11:25:12 - gas_mart - ERROR - Payment processing error: Insufficient payment. Required: 126.0, Tendered: 100.0
+2026-04-16 11:32:05 - gas_mart - INFO - Sale 9 created with 2 items
+2026-04-16 11:32:06 - gas_mart - DEBUG - Sale 9 transitioned: pending -> processing
+2026-04-16 11:32:06 - gas_mart - DEBUG - Sale 9 transitioned: processing -> completed
+2026-04-16 11:32:07 - gas_mart - DEBUG - Stock decremented for product 2: -100
+2026-04-16 11:32:08 - gas_mart - WARNING - Low stock alert created for 'Club Energy Drink 250ml' (current: 0, threshold: 10)
+2026-04-16 11:32:09 - gas_mart - DEBUG - Stock decremented for product 7: -10
+2026-04-16 11:32:09 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-16 11:32:09 - gas_mart - INFO - Cash payment processed for sale 9. Change: 20.0
+2026-04-16 11:34:24 - gas_mart - INFO - Sale 10 created with 1 items
+2026-04-16 11:34:32 - gas_mart - DEBUG - Sale 10 transitioned: pending -> processing
+2026-04-16 11:34:32 - gas_mart - DEBUG - Audit log created: action=payment_initiated, user_id=2
+2026-04-16 11:34:32 - gas_mart - INFO - Telecel payment initiated: ref=TEL-RYPNXSCY, phone=0201020958, amount=350.0
+2026-04-16 11:34:32 - gas_mart - INFO - Polling telecel payment status: TEL-RYPNXSCY
+2026-04-16 11:34:34 - gas_mart - INFO - Telecel payment succeeded: TEL-RYPNXSCY
+2026-04-16 11:34:35 - gas_mart - DEBUG - Sale 10 transitioned: processing -> completed
+2026-04-16 11:34:35 - gas_mart - DEBUG - Stock decremented for product 8: -10
+2026-04-16 11:34:35 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-16 11:34:35 - gas_mart - INFO - telecel payment completed: TEL-RYPNXSCY
+2026-04-20 08:44:16 - gas_mart - INFO - ============================================================
+2026-04-20 08:44:16 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-20 08:44:16 - gas_mart - INFO - ============================================================
+2026-04-20 08:44:16 - gas_mart - INFO - Database initialized
+2026-04-20 08:44:16 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-20 08:44:16 - gas_mart - INFO - First-run setup completed
+2026-04-20 08:44:45 - gas_mart - INFO - Application started successfully
+2026-04-20 08:45:07 - gas_mart - DEBUG - Password verification: True
+2026-04-20 08:45:08 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-20 08:45:08 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-20 08:45:08 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-20 08:45:59 - gas_mart - DEBUG - PaymentService initialized
+2026-04-20 08:45:59 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-20 08:49:59 - gas_mart - INFO - Sale 11 created with 2 items
+2026-04-20 08:50:00 - gas_mart - DEBUG - Sale 11 transitioned: pending -> processing
+2026-04-20 08:50:02 - gas_mart - DEBUG - Sale 11 transitioned: processing -> completed
+2026-04-20 08:50:04 - gas_mart - DEBUG - Stock decremented for product 9: -4
+2026-04-20 08:50:05 - gas_mart - DEBUG - Stock decremented for product 12: -4
+2026-04-20 08:50:06 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-20 08:50:06 - gas_mart - INFO - Cash payment processed for sale 11. Change: 28.0
+2026-04-20 08:50:20 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260420-0011.pdf
+2026-04-20 08:50:20 - gas_mart - INFO - Receipt issued: RCP-20260420-0011 (pdf)
+2026-04-20 08:52:24 - gas_mart - INFO - Sale 12 created with 3 items
+2026-04-20 08:54:07 - gas_mart - INFO - Sale 13 created with 2 items
+2026-04-20 08:54:09 - gas_mart - DEBUG - Sale 13 transitioned: pending -> processing
+2026-04-20 08:54:10 - gas_mart - DEBUG - Sale 13 transitioned: processing -> completed
+2026-04-20 08:54:12 - gas_mart - DEBUG - Stock decremented for product 18: -1
+2026-04-20 08:54:13 - gas_mart - DEBUG - Stock decremented for product 19: -12
+2026-04-20 08:54:15 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-20 08:54:15 - gas_mart - INFO - Cash payment processed for sale 13. Change: 46.0
+2026-04-20 08:54:22 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260420-0013.pdf
+2026-04-20 08:54:23 - gas_mart - INFO - Receipt issued: RCP-20260420-0013 (pdf)
+2026-04-20 08:54:51 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-04-20 08:54:51 - gas_mart - INFO - User 2 logged out
+2026-04-20 09:01:03 - gas_mart - INFO - ============================================================
+2026-04-20 09:01:04 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-20 09:01:04 - gas_mart - INFO - ============================================================
+2026-04-20 09:01:07 - gas_mart - INFO - Database initialized
+2026-04-20 09:01:07 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-20 09:01:07 - gas_mart - INFO - First-run setup completed
+2026-04-20 09:01:20 - gas_mart - INFO - Application started successfully
+2026-04-20 09:02:07 - gas_mart - DEBUG - Password verification: True
+2026-04-20 09:02:15 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-20 09:02:15 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-20 09:02:15 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-20 09:03:01 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-20 09:03:01 - gas_mart - INFO - Admin panel opened for admin
+2026-04-21 10:26:15 - gas_mart - INFO - ============================================================
+2026-04-21 10:26:15 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 10:26:15 - gas_mart - INFO - ============================================================
+2026-04-21 10:26:15 - gas_mart - INFO - Database initialized
+2026-04-21 10:26:16 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 10:26:16 - gas_mart - INFO - First-run setup completed
+2026-04-21 10:26:17 - gas_mart - INFO - Application started successfully
+2026-04-21 10:26:35 - gas_mart - DEBUG - Password verification: True
+2026-04-21 10:26:35 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-21 10:26:35 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-21 10:26:35 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-21 10:26:40 - gas_mart - DEBUG - PaymentService initialized
+2026-04-21 10:26:40 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-21 10:41:46 - gas_mart - INFO - Sale 14 created with 2 items
+2026-04-21 10:41:46 - gas_mart - DEBUG - Sale 14 transitioned: pending -> processing
+2026-04-21 10:41:46 - gas_mart - ERROR - Cash payment error: Insufficient payment. Required: 115.0, Tendered: 100.0
+2026-04-21 10:41:46 - gas_mart - DEBUG - Sale 14 transitioned: processing -> failed
+2026-04-21 10:41:47 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-04-21 10:41:50 - gas_mart - ERROR - Payment processing error: Insufficient payment. Required: 115.0, Tendered: 100.0
+2026-04-21 10:41:50 - gas_mart - INFO - Voided failed sale 14 from DB
+2026-04-21 10:41:58 - gas_mart - INFO - Sale 14 created with 2 items
+2026-04-21 10:41:58 - gas_mart - DEBUG - Sale 14 transitioned: pending -> processing
+2026-04-21 10:41:58 - gas_mart - DEBUG - Sale 14 transitioned: processing -> completed
+2026-04-21 10:41:59 - gas_mart - DEBUG - Stock decremented for product 18: -15
+2026-04-21 10:41:59 - gas_mart - DEBUG - Stock decremented for product 20: -10
+2026-04-21 10:41:59 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-21 10:41:59 - gas_mart - INFO - Cash payment processed for sale 14. Change: 5.0
+2026-04-21 10:42:09 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260421-0014.pdf
+2026-04-21 10:42:09 - gas_mart - INFO - Receipt issued: RCP-20260421-0014 (pdf)
+2026-04-21 10:42:46 - gas_mart - INFO - Sale 15 created with 1 items
+2026-04-21 10:42:47 - gas_mart - DEBUG - Sale 15 transitioned: pending -> processing
+2026-04-21 10:42:47 - gas_mart - DEBUG - Sale 15 transitioned: processing -> completed
+2026-04-21 10:42:47 - gas_mart - DEBUG - Stock decremented for product 19: -10
+2026-04-21 10:42:48 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-21 10:42:48 - gas_mart - INFO - Cash payment processed for sale 15. Change: 50.0
+2026-04-21 10:42:52 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260421-0015.pdf
+2026-04-21 10:42:52 - gas_mart - INFO - Receipt issued: RCP-20260421-0015 (pdf)
+2026-04-21 11:37:02 - gas_mart - INFO - ============================================================
+2026-04-21 11:37:02 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 11:37:02 - gas_mart - INFO - ============================================================
+2026-04-21 11:37:02 - gas_mart - INFO - Database initialized
+2026-04-21 11:37:02 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 11:37:02 - gas_mart - INFO - First-run setup completed
+2026-04-21 11:37:02 - gas_mart - INFO - Application started successfully
+2026-04-21 11:37:13 - gas_mart - DEBUG - Password verification: True
+2026-04-21 11:37:14 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-21 11:37:14 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-21 11:37:14 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-21 11:37:14 - gas_mart - DEBUG - PaymentService initialized
+2026-04-21 11:37:20 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-21 11:56:29 - gas_mart - INFO - ============================================================
+2026-04-21 11:56:29 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 11:56:29 - gas_mart - INFO - ============================================================
+2026-04-21 11:56:29 - gas_mart - INFO - Database initialized
+2026-04-21 11:56:29 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 11:56:29 - gas_mart - INFO - First-run setup completed
+2026-04-21 11:56:30 - gas_mart - INFO - Application started successfully
+2026-04-21 11:56:39 - gas_mart - DEBUG - Password verification: True
+2026-04-21 11:56:40 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-21 11:56:40 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-21 11:56:40 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-21 11:56:42 - gas_mart - DEBUG - PaymentService initialized
+2026-04-21 11:56:42 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-21 12:00:37 - gas_mart - INFO - ============================================================
+2026-04-21 12:00:37 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 12:00:37 - gas_mart - INFO - ============================================================
+2026-04-21 12:00:37 - gas_mart - INFO - Database initialized
+2026-04-21 12:00:37 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 12:00:37 - gas_mart - INFO - First-run setup completed
+2026-04-21 12:00:37 - gas_mart - INFO - Application started successfully
+2026-04-21 12:00:56 - gas_mart - DEBUG - Password verification: True
+2026-04-21 12:00:57 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-21 12:00:57 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-21 12:00:57 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-21 12:00:59 - gas_mart - DEBUG - PaymentService initialized
+2026-04-21 12:01:49 - gas_mart - INFO - ============================================================
+2026-04-21 12:01:49 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 12:01:49 - gas_mart - INFO - ============================================================
+2026-04-21 12:01:49 - gas_mart - INFO - Database initialized
+2026-04-21 12:01:50 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 12:01:50 - gas_mart - INFO - First-run setup completed
+2026-04-21 12:01:50 - gas_mart - INFO - Application started successfully
+2026-04-21 12:01:57 - gas_mart - DEBUG - Password verification: True
+2026-04-21 12:01:57 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-21 12:01:57 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-21 12:01:57 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-21 12:01:57 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-21 12:01:58 - gas_mart - INFO - Admin panel opened for admin
+2026-04-21 12:02:22 - gas_mart - INFO - ============================================================
+2026-04-21 12:02:22 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 12:02:22 - gas_mart - INFO - ============================================================
+2026-04-21 12:02:22 - gas_mart - INFO - Database initialized
+2026-04-21 12:02:22 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 12:02:22 - gas_mart - INFO - First-run setup completed
+2026-04-21 12:02:22 - gas_mart - INFO - Application started successfully
+2026-04-21 12:02:32 - gas_mart - DEBUG - Password verification: True
+2026-04-21 12:02:32 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-21 12:02:32 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-21 12:02:32 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-21 12:02:32 - gas_mart - DEBUG - PaymentService initialized
+2026-04-21 12:04:18 - gas_mart - INFO - ============================================================
+2026-04-21 12:04:18 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 12:04:18 - gas_mart - INFO - ============================================================
+2026-04-21 12:04:18 - gas_mart - INFO - Database initialized
+2026-04-21 12:04:18 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 12:04:18 - gas_mart - INFO - First-run setup completed
+2026-04-21 12:04:18 - gas_mart - INFO - Application started successfully
+2026-04-21 12:04:29 - gas_mart - DEBUG - Password verification: True
+2026-04-21 12:04:29 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-21 12:04:29 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-21 12:04:29 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-21 12:04:29 - gas_mart - DEBUG - PaymentService initialized
+2026-04-21 12:14:21 - gas_mart - INFO - ============================================================
+2026-04-21 12:14:21 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 12:14:21 - gas_mart - INFO - ============================================================
+2026-04-21 12:14:21 - gas_mart - INFO - Database initialized
+2026-04-21 12:14:21 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 12:14:21 - gas_mart - INFO - First-run setup completed
+2026-04-21 12:14:21 - gas_mart - INFO - Application started successfully
+2026-04-21 12:34:05 - gas_mart - INFO - ============================================================
+2026-04-21 12:34:05 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-21 12:34:05 - gas_mart - INFO - ============================================================
+2026-04-21 12:34:05 - gas_mart - INFO - Database initialized
+2026-04-21 12:34:05 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-21 12:34:05 - gas_mart - INFO - First-run setup completed
+2026-04-21 12:34:05 - gas_mart - INFO - Application started successfully
+2026-04-22 09:30:27 - gas_mart - INFO - ============================================================
+2026-04-22 09:30:27 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-22 09:30:27 - gas_mart - INFO - ============================================================
+2026-04-22 09:30:27 - gas_mart - INFO - Database initialized
+2026-04-22 09:30:27 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-22 09:30:27 - gas_mart - INFO - First-run setup completed
+2026-04-22 09:30:32 - gas_mart - INFO - Application started successfully
+2026-04-22 09:31:12 - gas_mart - DEBUG - Password verification: True
+2026-04-22 09:31:13 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-22 09:31:13 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-22 09:31:13 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-22 09:31:19 - gas_mart - DEBUG - PaymentService initialized
+2026-04-22 09:31:21 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-22 09:56:27 - gas_mart - INFO - ============================================================
+2026-04-22 09:56:27 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-22 09:56:27 - gas_mart - INFO - ============================================================
+2026-04-22 09:56:27 - gas_mart - INFO - Database initialized
+2026-04-22 09:56:27 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-22 09:56:27 - gas_mart - INFO - First-run setup completed
+2026-04-22 09:56:27 - gas_mart - INFO - Application started successfully
+2026-04-22 09:56:39 - gas_mart - DEBUG - Password verification: True
+2026-04-22 09:56:40 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-04-22 09:56:40 - gas_mart - INFO - User 'admin' logged in successfully
+2026-04-22 09:56:40 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-04-22 09:56:44 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-04-22 09:56:44 - gas_mart - INFO - Admin panel opened for admin
+2026-04-22 09:57:46 - gas_mart - DEBUG - Password verification: True
+2026-04-22 09:57:46 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-22 09:57:46 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-22 09:57:46 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-22 09:57:46 - gas_mart - DEBUG - PaymentService initialized
+2026-04-22 09:57:47 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-22 09:59:31 - gas_mart - INFO - Sale 16 created with 3 items
+2026-04-22 09:59:31 - gas_mart - DEBUG - Sale 16 transitioned: pending -> processing
+2026-04-22 09:59:31 - gas_mart - DEBUG - Sale 16 transitioned: processing -> completed
+2026-04-22 09:59:32 - gas_mart - DEBUG - Stock decremented for product 20: -20
+2026-04-22 09:59:32 - gas_mart - DEBUG - Stock decremented for product 19: -20
+2026-04-22 09:59:32 - gas_mart - DEBUG - Stock decremented for product 18: -20
+2026-04-22 09:59:32 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-22 09:59:32 - gas_mart - INFO - Cash payment processed for sale 16. Change: 10.0
+2026-04-24 09:08:28 - gas_mart - INFO - ============================================================
+2026-04-24 09:08:28 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-24 09:08:28 - gas_mart - INFO - ============================================================
+2026-04-24 09:08:28 - gas_mart - INFO - Database initialized
+2026-04-24 09:08:28 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-24 09:08:28 - gas_mart - INFO - First-run setup completed
+2026-04-24 09:08:40 - gas_mart - INFO - Application started successfully
+2026-04-24 09:08:52 - gas_mart - DEBUG - Password verification: True
+2026-04-24 09:08:53 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-24 09:08:53 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-24 09:08:53 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-24 09:09:15 - gas_mart - DEBUG - PaymentService initialized
+2026-04-24 09:09:17 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-24 09:10:30 - gas_mart - INFO - Sale 17 created with 1 items
+2026-04-24 09:10:31 - gas_mart - DEBUG - Sale 17 transitioned: pending -> processing
+2026-04-24 09:10:32 - gas_mart - DEBUG - Sale 17 transitioned: processing -> completed
+2026-04-24 09:10:33 - gas_mart - DEBUG - Stock decremented for product 18: -1
+2026-04-24 09:10:33 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-24 09:10:33 - gas_mart - INFO - Cash payment processed for sale 17. Change: 6.0
+2026-04-27 10:42:26 - gas_mart - INFO - ============================================================
+2026-04-27 10:42:26 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 10:42:26 - gas_mart - INFO - ============================================================
+2026-04-27 10:42:26 - gas_mart - INFO - Database initialized
+2026-04-27 10:42:26 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 10:42:26 - gas_mart - INFO - First-run setup completed
+2026-04-27 10:42:31 - gas_mart - INFO - Application started successfully
+2026-04-27 10:42:45 - gas_mart - DEBUG - Password verification: True
+2026-04-27 10:42:46 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 10:42:46 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 10:42:46 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 10:42:52 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 10:42:53 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 10:43:40 - gas_mart - DEBUG - Password verification: True
+2026-04-27 10:43:41 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 10:43:41 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 10:43:41 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 10:43:41 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 10:43:41 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 10:44:15 - gas_mart - INFO - Sale 18 created with 1 items
+2026-04-27 10:44:17 - gas_mart - DEBUG - Sale 18 transitioned: pending -> processing
+2026-04-27 10:44:18 - gas_mart - DEBUG - Sale 18 transitioned: processing -> completed
+2026-04-27 10:44:18 - gas_mart - DEBUG - Stock decremented for product 18: -1
+2026-04-27 10:44:22 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 10:44:22 - gas_mart - INFO - Cash payment processed for sale 18. Change: 1.0
+2026-04-27 11:55:49 - gas_mart - INFO - ============================================================
+2026-04-27 11:55:49 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 11:55:49 - gas_mart - INFO - ============================================================
+2026-04-27 11:55:50 - gas_mart - INFO - Database initialized
+2026-04-27 11:55:50 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 11:55:50 - gas_mart - INFO - First-run setup completed
+2026-04-27 11:55:53 - gas_mart - INFO - Application started successfully
+2026-04-27 11:56:10 - gas_mart - DEBUG - Password verification: True
+2026-04-27 11:56:10 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 11:56:10 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 11:56:10 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 11:56:13 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 11:56:13 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 11:56:50 - gas_mart - INFO - Sale 19 created with 1 items
+2026-04-27 11:56:50 - gas_mart - DEBUG - Sale 19 transitioned: pending -> processing
+2026-04-27 11:56:51 - gas_mart - DEBUG - Sale 19 transitioned: processing -> completed
+2026-04-27 11:56:51 - gas_mart - DEBUG - Stock decremented for product 18: -7
+2026-04-27 11:56:51 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 11:56:51 - gas_mart - INFO - Cash payment processed for sale 19. Change: 2.0
+2026-04-27 12:14:41 - gas_mart - INFO - ============================================================
+2026-04-27 12:14:41 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 12:14:41 - gas_mart - INFO - ============================================================
+2026-04-27 12:14:41 - gas_mart - INFO - Database initialized
+2026-04-27 12:14:41 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 12:14:41 - gas_mart - INFO - First-run setup completed
+2026-04-27 12:14:41 - gas_mart - INFO - Application started successfully
+2026-04-27 12:15:30 - gas_mart - DEBUG - Password verification: True
+2026-04-27 12:15:30 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 12:15:30 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 12:15:30 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 12:15:30 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 12:15:30 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 12:16:23 - gas_mart - INFO - ============================================================
+2026-04-27 12:16:23 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 12:16:23 - gas_mart - INFO - ============================================================
+2026-04-27 12:16:23 - gas_mart - INFO - Database initialized
+2026-04-27 12:16:23 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 12:16:23 - gas_mart - INFO - First-run setup completed
+2026-04-27 12:16:23 - gas_mart - INFO - Application started successfully
+2026-04-27 12:16:34 - gas_mart - DEBUG - Password verification: True
+2026-04-27 12:16:34 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 12:16:34 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 12:16:34 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 12:16:34 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 12:16:35 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 22:04:48 - gas_mart - INFO - ============================================================
+2026-04-27 22:04:48 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 22:04:48 - gas_mart - INFO - ============================================================
+2026-04-27 22:04:48 - gas_mart - INFO - Database initialized
+2026-04-27 22:04:49 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 22:04:49 - gas_mart - INFO - First-run setup completed
+2026-04-27 22:04:50 - gas_mart - INFO - Application started successfully
+2026-04-27 22:05:21 - gas_mart - DEBUG - Password verification: True
+2026-04-27 22:05:21 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 22:05:21 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 22:05:21 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 22:05:24 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 22:05:25 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 22:07:57 - gas_mart - INFO - ============================================================
+2026-04-27 22:07:57 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 22:07:57 - gas_mart - INFO - ============================================================
+2026-04-27 22:07:57 - gas_mart - INFO - Database initialized
+2026-04-27 22:07:57 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 22:07:57 - gas_mart - INFO - First-run setup completed
+2026-04-27 22:07:57 - gas_mart - INFO - Application started successfully
+2026-04-27 22:08:12 - gas_mart - DEBUG - Password verification: True
+2026-04-27 22:08:13 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 22:08:13 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 22:08:13 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 22:08:13 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 22:08:13 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 22:10:10 - gas_mart - INFO - ============================================================
+2026-04-27 22:10:10 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 22:10:10 - gas_mart - INFO - ============================================================
+2026-04-27 22:10:10 - gas_mart - INFO - Database initialized
+2026-04-27 22:10:10 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 22:10:10 - gas_mart - INFO - First-run setup completed
+2026-04-27 22:10:10 - gas_mart - INFO - Application started successfully
+2026-04-27 22:10:17 - gas_mart - DEBUG - Password verification: True
+2026-04-27 22:10:17 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 22:10:17 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 22:10:17 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 22:10:18 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 22:10:18 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 22:10:44 - gas_mart - INFO - Sale 20 created with 1 items
+2026-04-27 22:10:44 - gas_mart - DEBUG - Sale 20 transitioned: pending -> processing
+2026-04-27 22:10:44 - gas_mart - DEBUG - Sale 20 transitioned: processing -> completed
+2026-04-27 22:10:44 - gas_mart - DEBUG - Stock decremented for product 18: -12
+2026-04-27 22:10:44 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 22:10:44 - gas_mart - INFO - Cash payment processed for sale 20. Change: 52.0
+2026-04-27 22:38:13 - gas_mart - INFO - ============================================================
+2026-04-27 22:38:13 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 22:38:13 - gas_mart - INFO - ============================================================
+2026-04-27 22:38:13 - gas_mart - INFO - Database initialized
+2026-04-27 22:38:13 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 22:38:13 - gas_mart - INFO - First-run setup completed
+2026-04-27 22:38:14 - gas_mart - INFO - Application started successfully
+2026-04-27 22:38:24 - gas_mart - DEBUG - Password verification: True
+2026-04-27 22:38:24 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 22:38:24 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 22:38:24 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 22:38:24 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 22:38:24 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 22:39:56 - gas_mart - INFO - Sale 21 created with 2 items
+2026-04-27 22:39:56 - gas_mart - DEBUG - Sale 21 transitioned: pending -> processing
+2026-04-27 22:39:57 - gas_mart - DEBUG - Sale 21 transitioned: processing -> completed
+2026-04-27 22:39:57 - gas_mart - DEBUG - Stock decremented for product 17: -10
+2026-04-27 22:39:57 - gas_mart - DEBUG - Stock decremented for product 15: -5
+2026-04-27 22:39:57 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 22:39:57 - gas_mart - INFO - Cash payment processed for sale 21. Change: 0.0
+2026-04-27 22:56:14 - gas_mart - INFO - ============================================================
+2026-04-27 22:56:14 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 22:56:14 - gas_mart - INFO - ============================================================
+2026-04-27 22:56:14 - gas_mart - INFO - Database initialized
+2026-04-27 22:56:14 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 22:56:14 - gas_mart - INFO - First-run setup completed
+2026-04-27 22:56:14 - gas_mart - INFO - Application started successfully
+2026-04-27 22:56:21 - gas_mart - DEBUG - Password verification: True
+2026-04-27 22:56:22 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 22:56:22 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 22:56:22 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 22:56:22 - gas_mart - ERROR - Failed to open dashboard: CartService.__init__() missing 1 required positional argument: 'session'
+Traceback (most recent call last):
+  File "C:\Users\hp\gas_mart\ui\login_window.py", line 136, in _open_dashboard
+    POSWindow(dashboard, user)
+  File "C:\Users\hp\gas_mart\ui\pos_window.py", line 23, in __init__
+    self.cart_service = CartService()
+                        ^^^^^^^^^^^^^
+TypeError: CartService.__init__() missing 1 required positional argument: 'session'
+2026-04-27 22:56:51 - gas_mart - INFO - ============================================================
+2026-04-27 22:56:51 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 22:56:51 - gas_mart - INFO - ============================================================
+2026-04-27 22:56:51 - gas_mart - INFO - Database initialized
+2026-04-27 22:56:51 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 22:56:51 - gas_mart - INFO - First-run setup completed
+2026-04-27 22:56:51 - gas_mart - INFO - Application started successfully
+2026-04-27 22:56:58 - gas_mart - DEBUG - Password verification: True
+2026-04-27 22:56:59 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 22:56:59 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 22:56:59 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 22:56:59 - gas_mart - ERROR - Failed to open dashboard: CartService.__init__() missing 1 required positional argument: 'session'
+Traceback (most recent call last):
+  File "C:\Users\hp\gas_mart\ui\login_window.py", line 136, in _open_dashboard
+    POSWindow(dashboard, user)
+  File "C:\Users\hp\gas_mart\ui\pos_window.py", line 23, in __init__
+    self.cart_service = CartService()
+                        ^^^^^^^^^^^^^
+TypeError: CartService.__init__() missing 1 required positional argument: 'session'
+2026-04-27 23:02:14 - gas_mart - INFO - ============================================================
+2026-04-27 23:02:14 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 23:02:14 - gas_mart - INFO - ============================================================
+2026-04-27 23:02:14 - gas_mart - INFO - Database initialized
+2026-04-27 23:02:14 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 23:02:14 - gas_mart - INFO - First-run setup completed
+2026-04-27 23:02:14 - gas_mart - INFO - Application started successfully
+2026-04-27 23:02:22 - gas_mart - DEBUG - Password verification: True
+2026-04-27 23:02:23 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 23:02:23 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 23:02:23 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 23:02:23 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 23:02:23 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 23:02:58 - gas_mart - INFO - Sale 22 created with 1 items
+2026-04-27 23:02:58 - gas_mart - DEBUG - Sale 22 transitioned: pending -> processing
+2026-04-27 23:02:58 - gas_mart - DEBUG - Sale 22 transitioned: processing -> completed
+2026-04-27 23:02:59 - gas_mart - DEBUG - Stock decremented for product 15: -10
+2026-04-27 23:02:59 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 23:02:59 - gas_mart - INFO - Cash payment processed for sale 22. Change: 90.0
+2026-04-27 23:33:08 - gas_mart - INFO - ============================================================
+2026-04-27 23:33:08 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 23:33:08 - gas_mart - INFO - ============================================================
+2026-04-27 23:33:08 - gas_mart - INFO - Database initialized
+2026-04-27 23:33:08 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 23:33:08 - gas_mart - INFO - First-run setup completed
+2026-04-27 23:33:08 - gas_mart - INFO - Application started successfully
+2026-04-27 23:33:16 - gas_mart - DEBUG - Password verification: True
+2026-04-27 23:33:16 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 23:33:16 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 23:33:16 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 23:33:16 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 23:33:16 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 23:33:49 - gas_mart - INFO - Sale 23 created with 1 items
+2026-04-27 23:33:49 - gas_mart - DEBUG - Sale 23 transitioned: pending -> processing
+2026-04-27 23:33:50 - gas_mart - DEBUG - Sale 23 transitioned: processing -> completed
+2026-04-27 23:33:50 - gas_mart - DEBUG - Stock decremented for product 16: -5
+2026-04-27 23:33:50 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 23:33:50 - gas_mart - INFO - Cash payment processed for sale 23. Change: 20.0
+2026-04-27 23:34:57 - gas_mart - INFO - ============================================================
+2026-04-27 23:34:57 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 23:34:57 - gas_mart - INFO - ============================================================
+2026-04-27 23:34:57 - gas_mart - INFO - Database initialized
+2026-04-27 23:34:57 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 23:34:57 - gas_mart - INFO - First-run setup completed
+2026-04-27 23:34:57 - gas_mart - INFO - Application started successfully
+2026-04-27 23:35:05 - gas_mart - DEBUG - Password verification: True
+2026-04-27 23:35:05 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 23:35:05 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 23:35:05 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 23:35:05 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 23:35:05 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 23:36:59 - gas_mart - INFO - ============================================================
+2026-04-27 23:36:59 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-04-27 23:36:59 - gas_mart - INFO - ============================================================
+2026-04-27 23:36:59 - gas_mart - INFO - Database initialized
+2026-04-27 23:36:59 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-04-27 23:36:59 - gas_mart - INFO - First-run setup completed
+2026-04-27 23:36:59 - gas_mart - INFO - Application started successfully
+2026-04-27 23:37:07 - gas_mart - DEBUG - Password verification: True
+2026-04-27 23:37:07 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-04-27 23:37:07 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-04-27 23:37:07 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-04-27 23:37:07 - gas_mart - DEBUG - PaymentService initialized
+2026-04-27 23:37:07 - gas_mart - INFO - POS window opened for cashier aaron
+2026-04-27 23:40:57 - gas_mart - INFO - Sale 24 created with 1 items
+2026-04-27 23:40:57 - gas_mart - DEBUG - Sale 24 transitioned: pending -> processing
+2026-04-27 23:40:57 - gas_mart - DEBUG - Sale 24 transitioned: processing -> completed
+2026-04-27 23:40:57 - gas_mart - DEBUG - Stock decremented for product 16: -17
+2026-04-27 23:40:57 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-04-27 23:40:57 - gas_mart - INFO - Cash payment processed for sale 24. Change: 3.0
+2026-05-04 10:01:15 - gas_mart - INFO - ============================================================
+2026-05-04 10:01:15 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-04 10:01:15 - gas_mart - INFO - ============================================================
+2026-05-04 10:01:15 - gas_mart - INFO - Database initialized
+2026-05-04 10:01:15 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-04 10:01:15 - gas_mart - INFO - First-run setup completed
+2026-05-04 10:01:39 - gas_mart - INFO - Application started successfully
+2026-05-04 10:04:06 - gas_mart - DEBUG - Password verification: False
+2026-05-04 10:04:07 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-04 10:04:07 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-04 10:04:11 - gas_mart - DEBUG - Password verification: True
+2026-05-04 10:04:30 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-05-04 10:04:30 - gas_mart - INFO - User 'admin' logged in successfully
+2026-05-04 10:04:30 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-05-04 10:04:48 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-05-04 10:04:48 - gas_mart - INFO - Admin panel opened for admin
+2026-05-04 10:05:28 - gas_mart - DEBUG - Audit log created: action=logout, user_id=1
+2026-05-04 10:05:28 - gas_mart - INFO - User 1 logged out
+2026-05-04 10:16:43 - gas_mart - INFO - Application interrupted by user
+2026-05-04 10:30:55 - gas_mart - INFO - ============================================================
+2026-05-04 10:30:55 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-04 10:30:55 - gas_mart - INFO - ============================================================
+2026-05-04 10:30:55 - gas_mart - INFO - Database initialized
+2026-05-04 10:30:55 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-04 10:30:55 - gas_mart - INFO - First-run setup completed
+2026-05-04 10:31:16 - gas_mart - INFO - Application started successfully
+2026-05-04 10:31:30 - gas_mart - DEBUG - Password verification: True
+2026-05-04 10:32:08 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-04 10:32:08 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-04 10:32:08 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-04 10:32:19 - gas_mart - DEBUG - PaymentService initialized
+2026-05-04 10:32:34 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-04 10:58:46 - gas_mart - INFO - Sale 25 created with 1 items
+2026-05-04 10:58:47 - gas_mart - DEBUG - Sale 25 transitioned: pending -> processing
+2026-05-04 10:58:48 - gas_mart - DEBUG - Sale 25 transitioned: processing -> completed
+2026-05-04 10:58:48 - gas_mart - DEBUG - Stock decremented for product 17: -2
+2026-05-04 10:58:48 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-04 10:58:48 - gas_mart - INFO - Cash payment processed for sale 25. Change: 0.0
+2026-05-04 12:52:25 - gas_mart - INFO - ============================================================
+2026-05-04 12:52:25 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-04 12:52:25 - gas_mart - INFO - ============================================================
+2026-05-04 12:52:25 - gas_mart - INFO - Database initialized
+2026-05-04 12:52:25 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-04 12:52:25 - gas_mart - INFO - First-run setup completed
+2026-05-04 12:52:33 - gas_mart - INFO - Application started successfully
+2026-05-04 12:54:24 - gas_mart - DEBUG - Password verification: True
+2026-05-04 12:54:27 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-04 12:54:27 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-04 12:54:27 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-04 12:54:53 - gas_mart - DEBUG - PaymentService initialized
+2026-05-04 12:54:55 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-04 12:58:17 - gas_mart - INFO - Sale 26 created with 2 items
+2026-05-04 12:58:17 - gas_mart - DEBUG - Sale 26 transitioned: pending -> processing
+2026-05-04 12:58:17 - gas_mart - DEBUG - Sale 26 transitioned: processing -> completed
+2026-05-04 12:58:17 - gas_mart - DEBUG - Stock decremented for product 20: -4
+2026-05-04 12:58:18 - gas_mart - DEBUG - Stock decremented for product 15: -4
+2026-05-04 12:58:18 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-04 12:58:18 - gas_mart - INFO - Cash payment processed for sale 26. Change: 4.0
+2026-05-04 13:59:38 - gas_mart - INFO - ============================================================
+2026-05-04 13:59:38 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-04 13:59:38 - gas_mart - INFO - ============================================================
+2026-05-04 13:59:38 - gas_mart - INFO - Database initialized
+2026-05-04 13:59:38 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-04 13:59:38 - gas_mart - INFO - First-run setup completed
+2026-05-04 13:59:46 - gas_mart - INFO - Application started successfully
+2026-05-04 14:00:41 - gas_mart - DEBUG - Password verification: True
+2026-05-04 14:00:41 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-04 14:00:41 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-04 14:00:41 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-04 14:00:45 - gas_mart - DEBUG - PaymentService initialized
+2026-05-04 14:00:45 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-04 14:03:52 - gas_mart - INFO - Sale 27 created with 1 items
+2026-05-04 14:03:52 - gas_mart - DEBUG - [thread=5836] Payment worker started for method: cash
+2026-05-04 14:03:53 - gas_mart - DEBUG - Sale 27 transitioned: pending -> processing
+2026-05-04 14:03:53 - gas_mart - DEBUG - Sale 27 transitioned: processing -> completed
+2026-05-04 14:03:53 - gas_mart - DEBUG - Stock decremented for product 15: -4
+2026-05-04 14:03:53 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-04 14:03:53 - gas_mart - INFO - Cash payment processed for sale 27. Change: 6.0
+2026-05-04 14:03:53 - gas_mart - DEBUG - [thread=14588] Payment success: cash
+2026-05-05 09:42:27 - gas_mart - INFO - ============================================================
+2026-05-05 09:42:27 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-05 09:42:27 - gas_mart - INFO - ============================================================
+2026-05-05 09:42:27 - gas_mart - INFO - Database initialized
+2026-05-05 09:42:27 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-05 09:42:27 - gas_mart - INFO - First-run setup completed
+2026-05-05 09:42:37 - gas_mart - INFO - Application started successfully
+2026-05-05 09:42:49 - gas_mart - DEBUG - Password verification: True
+2026-05-05 09:42:49 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-05 09:42:49 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-05 09:42:49 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-05 09:42:55 - gas_mart - DEBUG - PaymentService initialized
+2026-05-05 09:42:56 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-05 09:43:36 - gas_mart - INFO - Sale 28 created with 1 items
+2026-05-05 09:43:36 - gas_mart - DEBUG - [thread=17468] Payment worker started for method: cash
+2026-05-05 09:43:36 - gas_mart - DEBUG - Sale 28 transitioned: pending -> processing
+2026-05-05 09:43:36 - gas_mart - DEBUG - Sale 28 transitioned: processing -> completed
+2026-05-05 09:43:37 - gas_mart - DEBUG - Stock decremented for product 15: -10
+2026-05-05 09:43:37 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-05 09:43:37 - gas_mart - INFO - Cash payment processed for sale 28. Change: 40.0
+2026-05-05 09:43:37 - gas_mart - DEBUG - [thread=9932] Payment success: cash
+2026-05-05 10:27:31 - gas_mart - INFO - ============================================================
+2026-05-05 10:27:31 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-05 10:27:31 - gas_mart - INFO - ============================================================
+2026-05-05 10:27:31 - gas_mart - INFO - Database initialized
+2026-05-05 10:27:31 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-05 10:27:31 - gas_mart - INFO - First-run setup completed
+2026-05-05 10:27:36 - gas_mart - INFO - Application started successfully
+2026-05-05 10:27:58 - gas_mart - DEBUG - Password verification: True
+2026-05-05 10:27:58 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-05 10:27:58 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-05 10:27:58 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-05 17:27:33 - gas_mart - INFO - ============================================================
+2026-05-05 17:27:33 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-05 17:27:33 - gas_mart - INFO - ============================================================
+2026-05-05 17:27:33 - gas_mart - INFO - Database initialized
+2026-05-05 17:27:33 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-05 17:27:33 - gas_mart - INFO - First-run setup completed
+2026-05-05 17:27:36 - gas_mart - INFO - Application started successfully
+2026-05-05 17:27:47 - gas_mart - DEBUG - Password verification: True
+2026-05-05 17:27:47 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-05 17:27:47 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-05 17:27:47 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-05 17:27:47 - gas_mart - INFO - Routing user 'aaron' with role 'cashier'
+2026-05-05 17:27:50 - gas_mart - DEBUG - PaymentService initialized
+2026-05-05 17:27:51 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-05 17:37:23 - gas_mart - INFO - Sale 29 created with 2 items
+2026-05-05 17:37:23 - gas_mart - DEBUG - PaymentService initialized
+2026-05-05 17:37:23 - gas_mart - DEBUG - Sale 29 transitioned: pending -> processing
+2026-05-05 17:37:23 - gas_mart - DEBUG - Sale 29 transitioned: processing -> completed
+2026-05-05 17:37:23 - gas_mart - DEBUG - Stock decremented for product 15: -8
+2026-05-05 17:37:23 - gas_mart - DEBUG - Stock decremented for product 9: -8
+2026-05-05 17:37:24 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-05 17:37:24 - gas_mart - INFO - Cash payment processed for sale 29. Change: 2.0
+2026-05-05 17:37:24 - gas_mart - DEBUG - Payment success
+2026-05-05 17:37:33 - gas_mart - DEBUG - print_receipt called
+2026-05-05 17:37:33 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260505-0029.pdf
+2026-05-05 17:37:33 - gas_mart - INFO - Receipt issued: RCP-20260505-0029 (pdf)
+2026-05-05 18:26:47 - gas_mart - INFO - ============================================================
+2026-05-05 18:26:47 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-05 18:26:47 - gas_mart - INFO - ============================================================
+2026-05-05 18:26:47 - gas_mart - INFO - Database initialized
+2026-05-05 18:26:47 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-05 18:26:47 - gas_mart - INFO - First-run setup completed
+2026-05-05 18:26:50 - gas_mart - INFO - Application started successfully
+2026-05-05 18:27:07 - gas_mart - DEBUG - Password verification: True
+2026-05-05 18:27:07 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-05 18:27:07 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-05 18:27:07 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-05 18:27:07 - gas_mart - INFO - Routing user 'aaron' with role 'cashier'
+2026-05-05 18:27:11 - gas_mart - DEBUG - PaymentService initialized
+2026-05-05 18:27:11 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-05 18:28:19 - gas_mart - INFO - Sale 30 created with 2 items
+2026-05-05 18:28:19 - gas_mart - DEBUG - PaymentService initialized
+2026-05-05 18:28:19 - gas_mart - DEBUG - Sale 30 transitioned: pending -> processing
+2026-05-05 18:28:20 - gas_mart - DEBUG - Sale 30 transitioned: processing -> completed
+2026-05-05 18:28:20 - gas_mart - DEBUG - Stock decremented for product 1: -10
+2026-05-05 18:28:20 - gas_mart - DEBUG - Stock decremented for product 12: -10
+2026-05-05 18:28:20 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-05 18:28:20 - gas_mart - INFO - Cash payment processed for sale 30. Change: 0.0
+2026-05-05 18:28:20 - gas_mart - DEBUG - Payment success
+2026-05-05 18:28:24 - gas_mart - DEBUG - print_receipt called
+2026-05-05 18:28:24 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260505-0030.pdf
+2026-05-05 18:28:24 - gas_mart - INFO - Receipt issued: RCP-20260505-0030 (pdf)
+2026-05-05 18:29:17 - gas_mart - DEBUG - new_sale called
+2026-05-05 18:29:49 - gas_mart - INFO - Sale 31 created with 1 items
+2026-05-05 18:29:55 - gas_mart - DEBUG - PaymentService initialized
+2026-05-05 18:29:55 - gas_mart - DEBUG - Sale 31 transitioned: pending -> processing
+2026-05-05 18:29:55 - gas_mart - DEBUG - Audit log created: action=payment_initiated, user_id=2
+2026-05-05 18:29:55 - gas_mart - INFO - Telecel payment initiated: ref=TEL-XSU20YUC, phone=0201020958, amount=20.0
+2026-05-05 18:29:55 - gas_mart - INFO - Polling telecel payment status: TEL-XSU20YUC
+2026-05-05 18:29:57 - gas_mart - INFO - Telecel payment succeeded: TEL-XSU20YUC
+2026-05-05 18:29:57 - gas_mart - DEBUG - Sale 31 transitioned: processing -> completed
+2026-05-05 18:29:57 - gas_mart - DEBUG - Stock decremented for product 1: -10
+2026-05-05 18:29:57 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-05 18:29:57 - gas_mart - INFO - telecel payment completed: TEL-XSU20YUC
+2026-05-05 18:29:57 - gas_mart - DEBUG - Payment success
+2026-05-05 18:30:32 - gas_mart - DEBUG - print_receipt called
+2026-05-05 18:30:32 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260505-0031.pdf
+2026-05-05 18:30:33 - gas_mart - INFO - Receipt issued: RCP-20260505-0031 (pdf)
+2026-05-05 18:30:34 - gas_mart - DEBUG - new_sale called
+2026-05-05 18:30:40 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-05 18:30:40 - gas_mart - INFO - User 2 logged out
+2026-05-05 18:30:56 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-05 18:30:56 - gas_mart - INFO - User 2 logged out
+2026-05-05 18:31:00 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-05 18:31:00 - gas_mart - INFO - User 2 logged out
+2026-05-05 18:31:07 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-05 18:31:07 - gas_mart - INFO - User 2 logged out
+2026-05-05 18:44:15 - gas_mart - INFO - ============================================================
+2026-05-05 18:44:15 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-05 18:44:15 - gas_mart - INFO - ============================================================
+2026-05-05 18:44:15 - gas_mart - INFO - Database initialized
+2026-05-05 18:44:15 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-05 18:44:15 - gas_mart - INFO - First-run setup completed
+2026-05-05 18:44:16 - gas_mart - INFO - Application started successfully
+2026-05-05 18:44:34 - gas_mart - DEBUG - Password verification: False
+2026-05-05 18:44:35 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-05 18:44:35 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-05 18:44:41 - gas_mart - DEBUG - Password verification: False
+2026-05-05 18:44:41 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-05 18:44:41 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-05 18:44:47 - gas_mart - DEBUG - Password verification: False
+2026-05-05 18:44:47 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-05 18:44:47 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-05 18:44:53 - gas_mart - DEBUG - Password verification: True
+2026-05-05 18:44:53 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-05-05 18:44:53 - gas_mart - INFO - User 'admin' logged in successfully
+2026-05-05 18:44:53 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-05-05 18:44:53 - gas_mart - INFO - Routing user 'admin' with role 'admin'
+2026-05-05 18:44:54 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-05-05 18:44:54 - gas_mart - INFO - Admin panel opened for admin
+2026-05-11 10:21:09 - gas_mart - INFO - ============================================================
+2026-05-11 10:21:09 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-11 10:21:09 - gas_mart - INFO - ============================================================
+2026-05-11 10:21:10 - gas_mart - INFO - Database initialized
+2026-05-11 10:21:10 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-11 10:21:10 - gas_mart - INFO - First-run setup completed
+2026-05-11 10:21:37 - gas_mart - INFO - Application started successfully
+2026-05-11 10:21:47 - gas_mart - DEBUG - Password verification: True
+2026-05-11 10:21:47 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-11 10:21:47 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-11 10:21:47 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-11 10:21:47 - gas_mart - INFO - Routing user 'aaron' with role 'cashier'
+2026-05-11 10:21:54 - gas_mart - DEBUG - PaymentService initialized
+2026-05-11 10:21:55 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-11 10:27:31 - gas_mart - INFO - Sale 32 created with 1 items
+2026-05-11 10:27:31 - gas_mart - DEBUG - PaymentService initialized
+2026-05-11 10:27:32 - gas_mart - DEBUG - Sale 32 transitioned: pending -> processing
+2026-05-11 10:27:32 - gas_mart - DEBUG - Sale 32 transitioned: processing -> completed
+2026-05-11 10:27:32 - gas_mart - DEBUG - Stock decremented for product 15: -5
+2026-05-11 10:27:33 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-11 10:27:33 - gas_mart - INFO - Cash payment processed for sale 32. Change: 5.0
+2026-05-11 10:27:33 - gas_mart - DEBUG - Payment success
+2026-05-11 10:27:37 - gas_mart - DEBUG - print_receipt called
+2026-05-11 10:27:37 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260511-0032.pdf
+2026-05-11 10:27:37 - gas_mart - INFO - Receipt issued: RCP-20260511-0032 (pdf)
+2026-05-11 10:27:45 - gas_mart - DEBUG - new_sale called
+2026-05-11 10:36:42 - gas_mart - INFO - Sale 33 created with 4 items
+2026-05-11 10:36:42 - gas_mart - DEBUG - PaymentService initialized
+2026-05-11 10:36:42 - gas_mart - DEBUG - Sale 33 transitioned: pending -> processing
+2026-05-11 10:36:43 - gas_mart - DEBUG - Sale 33 transitioned: processing -> completed
+2026-05-11 10:36:43 - gas_mart - DEBUG - Stock decremented for product 15: -10
+2026-05-11 10:36:43 - gas_mart - DEBUG - Stock decremented for product 17: -10
+2026-05-11 10:36:44 - gas_mart - DEBUG - Stock decremented for product 20: -7
+2026-05-11 10:36:44 - gas_mart - DEBUG - Stock decremented for product 8: -12
+2026-05-11 10:36:44 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-11 10:36:44 - gas_mart - INFO - Cash payment processed for sale 33. Change: 56.5
+2026-05-11 10:36:44 - gas_mart - DEBUG - Payment success
+2026-05-11 10:36:55 - gas_mart - DEBUG - print_receipt called
+2026-05-11 10:36:55 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260511-0033.pdf
+2026-05-11 10:36:56 - gas_mart - INFO - Receipt issued: RCP-20260511-0033 (pdf)
+2026-05-11 10:36:58 - gas_mart - DEBUG - new_sale called
+2026-05-11 10:55:16 - gas_mart - INFO - Sale 34 created with 4 items
+2026-05-11 10:55:16 - gas_mart - DEBUG - PaymentService initialized
+2026-05-11 10:55:17 - gas_mart - DEBUG - Sale 34 transitioned: pending -> processing
+2026-05-11 10:55:18 - gas_mart - DEBUG - Sale 34 transitioned: processing -> completed
+2026-05-11 10:55:18 - gas_mart - DEBUG - Stock decremented for product 8: -6
+2026-05-11 10:55:19 - gas_mart - DEBUG - Stock decremented for product 5: -6
+2026-05-11 10:55:19 - gas_mart - DEBUG - Stock decremented for product 12: -6
+2026-05-11 10:55:20 - gas_mart - DEBUG - Stock decremented for product 3: -6
+2026-05-11 10:55:20 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-11 10:55:20 - gas_mart - INFO - Card payment processed for sale 34
+2026-05-11 10:55:20 - gas_mart - DEBUG - Payment success
+2026-05-11 10:55:27 - gas_mart - DEBUG - print_receipt called
+2026-05-11 10:55:27 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260511-0034.pdf
+2026-05-11 10:55:27 - gas_mart - INFO - Receipt issued: RCP-20260511-0034 (pdf)
+2026-05-11 10:55:28 - gas_mart - DEBUG - new_sale called
+2026-05-11 10:55:39 - gas_mart - INFO - Sale 35 created with 1 items
+2026-05-11 10:55:47 - gas_mart - DEBUG - PaymentService initialized
+2026-05-11 10:55:47 - gas_mart - DEBUG - Sale 35 transitioned: pending -> processing
+2026-05-11 10:55:48 - gas_mart - DEBUG - Audit log created: action=payment_initiated, user_id=2
+2026-05-11 10:55:48 - gas_mart - INFO - Telecel payment initiated: ref=TEL-KPNRW5ZL, phone=0201020958, amount=35.0
+2026-05-11 10:55:48 - gas_mart - INFO - Polling telecel payment status: TEL-KPNRW5ZL
+2026-05-11 10:55:50 - gas_mart - INFO - Telecel payment succeeded: TEL-KPNRW5ZL
+2026-05-11 10:55:50 - gas_mart - DEBUG - Sale 35 transitioned: processing -> completed
+2026-05-11 10:55:50 - gas_mart - DEBUG - Stock decremented for product 8: -1
+2026-05-11 10:55:51 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-11 10:55:51 - gas_mart - INFO - telecel payment completed: TEL-KPNRW5ZL
+2026-05-11 10:55:51 - gas_mart - DEBUG - Payment success
+2026-05-11 10:55:58 - gas_mart - DEBUG - print_receipt called
+2026-05-11 10:55:58 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260511-0035.pdf
+2026-05-11 10:55:58 - gas_mart - INFO - Receipt issued: RCP-20260511-0035 (pdf)
+2026-05-11 10:56:00 - gas_mart - DEBUG - new_sale called
+2026-05-12 09:34:36 - gas_mart - INFO - Sale 36 created with 1 items
+2026-05-12 09:34:38 - gas_mart - DEBUG - PaymentService initialized
+2026-05-12 09:34:38 - gas_mart - DEBUG - Sale 36 transitioned: pending -> processing
+2026-05-12 09:34:39 - gas_mart - ERROR - Cash payment error: Insufficient payment. Required: 350.0, Tendered: 20.0
+2026-05-12 09:34:39 - gas_mart - DEBUG - Sale 36 transitioned: processing -> failed
+2026-05-12 09:34:40 - gas_mart - DEBUG - Audit log created: action=payment_failed, user_id=2
+2026-05-12 09:34:40 - gas_mart - DEBUG - Payment failure: Insufficient payment. Required: 350.0, Tendered: 20.0
+2026-05-12 09:34:44 - gas_mart - INFO - Voided failed sale 36
+2026-05-12 09:34:56 - gas_mart - INFO - Sale 36 created with 1 items
+2026-05-12 09:34:56 - gas_mart - DEBUG - PaymentService initialized
+2026-05-12 09:34:56 - gas_mart - DEBUG - Sale 36 transitioned: pending -> processing
+2026-05-12 09:34:56 - gas_mart - DEBUG - Sale 36 transitioned: processing -> completed
+2026-05-12 09:34:56 - gas_mart - DEBUG - Stock decremented for product 8: -10
+2026-05-12 09:34:57 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-12 09:34:57 - gas_mart - INFO - Cash payment processed for sale 36. Change: 50.0
+2026-05-12 09:34:57 - gas_mart - DEBUG - Payment success
+2026-05-12 09:35:01 - gas_mart - DEBUG - print_receipt called
+2026-05-12 09:35:01 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260512-0036.pdf
+2026-05-12 09:35:02 - gas_mart - INFO - Receipt issued: RCP-20260512-0036 (pdf)
+2026-05-12 09:35:06 - gas_mart - DEBUG - new_sale called
+2026-05-12 09:35:13 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 09:35:13 - gas_mart - INFO - User 2 logged out
+2026-05-12 09:48:58 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 09:48:58 - gas_mart - INFO - User 2 logged out
+2026-05-12 09:49:00 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 09:49:00 - gas_mart - INFO - User 2 logged out
+2026-05-12 09:49:00 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 09:49:00 - gas_mart - INFO - User 2 logged out
+2026-05-12 09:49:00 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 09:49:00 - gas_mart - INFO - User 2 logged out
+2026-05-12 09:49:01 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 09:49:01 - gas_mart - INFO - User 2 logged out
+2026-05-12 10:07:13 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-12 10:07:13 - gas_mart - INFO - User 2 logged out
+2026-05-12 11:37:00 - gas_mart - INFO - ============================================================
+2026-05-12 11:37:00 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-12 11:37:00 - gas_mart - INFO - ============================================================
+2026-05-12 11:37:00 - gas_mart - INFO - Database initialized
+2026-05-12 11:37:00 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-12 11:37:00 - gas_mart - INFO - First-run setup completed
+2026-05-12 11:37:18 - gas_mart - INFO - Application started successfully
+2026-05-12 11:47:05 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:47:07 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:47:07 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:47:14 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:47:15 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:47:15 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:47:23 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:47:23 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:47:23 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:47:29 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:47:30 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:47:30 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:47:35 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:47:36 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:47:36 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:47:55 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:47:55 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:47:55 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:48:03 - gas_mart - DEBUG - Password verification: False
+2026-05-12 11:48:03 - gas_mart - DEBUG - Audit log created: action=login_failed, user_id=1
+2026-05-12 11:48:03 - gas_mart - WARNING - Login failed: Incorrect password
+2026-05-12 11:48:14 - gas_mart - DEBUG - Password verification: True
+2026-05-12 11:48:14 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-05-12 11:48:14 - gas_mart - INFO - User 'admin' logged in successfully
+2026-05-12 11:48:14 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-05-12 11:48:14 - gas_mart - INFO - Routing user 'admin' with role 'admin'
+2026-05-12 11:48:16 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-05-12 11:48:16 - gas_mart - INFO - Admin panel opened for admin
+2026-05-12 13:00:26 - gas_mart - INFO - ============================================================
+2026-05-12 13:00:26 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-12 13:00:26 - gas_mart - INFO - ============================================================
+2026-05-12 13:00:26 - gas_mart - INFO - Database initialized
+2026-05-12 13:00:26 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-12 13:00:26 - gas_mart - INFO - First-run setup completed
+2026-05-12 13:00:44 - gas_mart - INFO - Application started successfully
+2026-05-12 13:05:48 - gas_mart - DEBUG - Password verification: True
+2026-05-12 13:05:48 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-05-12 13:05:48 - gas_mart - INFO - User 'admin' logged in successfully
+2026-05-12 13:05:48 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-05-12 13:05:48 - gas_mart - INFO - Routing user 'admin' with role 'admin'
+2026-05-12 13:05:52 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-05-12 13:05:52 - gas_mart - INFO - Admin panel opened for admin
+2026-05-18 18:04:57 - gas_mart - INFO - ============================================================
+2026-05-18 18:04:58 - gas_mart - INFO - GAS MART MANAGEMENT SYSTEM - STARTING UP
+2026-05-18 18:04:58 - gas_mart - INFO - ============================================================
+2026-05-18 18:04:58 - gas_mart - INFO - Database initialized
+2026-05-18 18:04:58 - gas_mart - INFO - First run already completed. Skipping setup.
+2026-05-18 18:04:58 - gas_mart - INFO - First-run setup completed
+2026-05-18 18:05:39 - gas_mart - INFO - Application started successfully
+2026-05-18 18:05:52 - gas_mart - DEBUG - Password verification: True
+2026-05-18 18:05:54 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=2
+2026-05-18 18:05:54 - gas_mart - INFO - User 'aaron' logged in successfully
+2026-05-18 18:05:54 - gas_mart - INFO - User aaron logged in successfully with role cashier
+2026-05-18 18:05:54 - gas_mart - INFO - Routing user 'aaron' with role 'cashier'
+2026-05-18 18:06:15 - gas_mart - DEBUG - PaymentService initialized
+2026-05-18 18:06:17 - gas_mart - INFO - POS window opened for cashier aaron
+2026-05-18 18:10:45 - gas_mart - INFO - Sale 37 created with 1 items
+2026-05-18 18:10:46 - gas_mart - DEBUG - PaymentService initialized
+2026-05-18 18:10:46 - gas_mart - DEBUG - Sale 37 transitioned: pending -> processing
+2026-05-18 18:10:47 - gas_mart - DEBUG - Sale 37 transitioned: processing -> completed
+2026-05-18 18:10:48 - gas_mart - DEBUG - Stock decremented for product 7: -10
+2026-05-18 18:10:49 - gas_mart - DEBUG - Audit log created: action=payment_completed, user_id=2
+2026-05-18 18:10:49 - gas_mart - INFO - Cash payment processed for sale 37. Change: 10.0
+2026-05-18 18:10:49 - gas_mart - DEBUG - Payment success
+2026-05-18 18:10:56 - gas_mart - DEBUG - print_receipt called
+2026-05-18 18:10:57 - gas_mart - INFO - PDF receipt generated: C:\Users\hp\gas_mart\data\..\receipts\RCP-20260518-0037.pdf
+2026-05-18 18:10:57 - gas_mart - INFO - Receipt issued: RCP-20260518-0037 (pdf)
+2026-05-18 18:11:00 - gas_mart - DEBUG - new_sale called
+2026-05-18 18:11:02 - gas_mart - DEBUG - Audit log created: action=logout, user_id=2
+2026-05-18 18:11:02 - gas_mart - INFO - User 2 logged out
+2026-05-18 18:11:17 - gas_mart - DEBUG - Password verification: True
+2026-05-18 18:11:18 - gas_mart - DEBUG - Audit log created: action=login_success, user_id=1
+2026-05-18 18:11:18 - gas_mart - INFO - User 'admin' logged in successfully
+2026-05-18 18:11:18 - gas_mart - INFO - User admin logged in successfully with role admin
+2026-05-18 18:11:18 - gas_mart - INFO - Routing user 'admin' with role 'admin'
+2026-05-18 18:11:19 - gas_mart - DEBUG - PricingContext initialized with mode: demo
+2026-05-18 18:11:19 - gas_mart - INFO - Admin panel opened for admin

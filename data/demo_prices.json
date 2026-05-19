@@ -1,0 +1,122 @@
+[
+  {
+    "barcode": "6001001",
+    "name": "Voltic Water 500ml",
+    "category": "Beverages",
+    "demo_price": 2.00
+  },
+  {
+    "barcode": "6001002",
+    "name": "Club Energy Drink 250ml",
+    "category": "Beverages",
+    "demo_price": 8.50
+  },
+  {
+    "barcode": "6001003",
+    "name": "Pringles Original 40g",
+    "category": "Snacks",
+    "demo_price": 12.00
+  },
+  {
+    "barcode": "6001004",
+    "name": "Gardenia Bread Loaf",
+    "category": "Bakery",
+    "demo_price": 18.00
+  },
+  {
+    "barcode": "6001005",
+    "name": "MTN Airtime GHS 5",
+    "category": "Airtime",
+    "demo_price": 5.00
+  },
+  {
+    "barcode": "6001006",
+    "name": "MTN Airtime GHS 10",
+    "category": "Airtime",
+    "demo_price": 10.00
+  },
+  {
+    "barcode": "6001007",
+    "name": "Mentos Roll",
+    "category": "Confectionery",
+    "demo_price": 3.00
+  },
+  {
+    "barcode": "6001008",
+    "name": "Marlboro Red 20s",
+    "category": "Tobacco",
+    "demo_price": 35.00
+  },
+  {
+    "barcode": "6001009",
+    "name": "Dettol Sanitizer 50ml",
+    "category": "Healthcare",
+    "demo_price": 15.00
+  },
+  {
+    "barcode": "6001010",
+    "name": "Kleenex Tissues 200s",
+    "category": "Household",
+    "demo_price": 22.00
+  },
+  {
+    "barcode": "6001011",
+    "name": "Total Quartz 1L Engine Oil",
+    "category": "Automotive",
+    "demo_price": 85.00
+  },
+  {
+    "barcode": "6001012",
+    "name": "Glade Car Freshener",
+    "category": "Automotive",
+    "demo_price": 28.00
+  },
+  {
+    "barcode": "6001013",
+    "name": "Jacob's Creek Biscuits",
+    "category": "Snacks",
+    "demo_price": 9.50
+  },
+  {
+    "barcode": "6001014",
+    "name": "Wrigley's Doublemint Gum",
+    "category": "Confectionery",
+    "demo_price": 2.50
+  },
+  {
+    "barcode": "6001015",
+    "name": "Kit Kat Chocolate",
+    "category": "Confectionery",
+    "demo_price": 11.00
+  },
+  {
+    "barcode": "6001016",
+    "name": "Coca-Cola 500ml",
+    "category": "Beverages",
+    "demo_price": 6.00
+  },
+  {
+    "barcode": "6001017",
+    "name": "Minute Maid Orange Juice 300ml",
+    "category": "Beverages",
+    "demo_price": 76001018.50
+  },
+  {
+    "barcode": "6001018",
+    "name": "Fan Ice Vanilla 100ml",
+    "category": "Dairy",
+    "demo_price": 4.00
+  },
+  {
+    "barcode": "6001019",
+    "name": "Tuna Sandwich (ready-made)",
+    "category": "Food",
+    "demo_price": 25.00
+  },
+  {
+    "barcode": "6001020",
+    "name": "Nescafe Sachet 3-in-1",
+    "category": "Beverages",
+    "demo_price": 5.50
+  }
+]

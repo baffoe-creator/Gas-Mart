@@ -1,0 +1,55 @@
+# Gas Mart Management System - Complete Dependencies
+# Python 3.11+
+# Install with: pip install -r requirements.txt
+
+# ==================== CORE FRAMEWORK ====================
+# Database & ORM
+SQLAlchemy==2.0.23
+pyodbc==5.0.1
+
+# GUI - Tkinter comes with Python, but these enhance it
+# (No tkinter in pip - included with Python installation)
+
+# ==================== SECURITY ====================
+# Password Hashing
+bcrypt==4.1.1
+cryptography==41.0.7
+
+# ==================== RECEIPT & PRINTING ====================
+# PDF Generation
+reportlab==4.0.9
+
+# Receipt Printing (ESC/POS support)
+python-escpos>=2.2.0
+pyusb==1.2.1
+Pillow==10.1.0  # Image support for receipts
+
+# ==================== TESTING ====================
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# ==================== DATABASE ====================
+# SQLite driver (usually included with Python)
+# Additional database support if needed
+psycopg2-binary==2.9.9  # PostgreSQL support (optional)
+
+# ==================== UTILITIES & HELPERS ====================
+python-dateutil==2.8.2
+requests==2.31.0
+pytz==2023.3.post1
+
+# ==================== LOGGING & OUTPUT ====================
+colorlog==6.8.0
+colorama==0.4.6
+
+# ==================== CODE QUALITY & DEVELOPMENT ====================
+# (Optional - only if you want to develop/extend)
+black==23.12.0          # Code formatter
+flake8==6.1.0          # Linter
+pylint==3.0.3          # Code analyzer
+mypy==1.7.1            # Type checker
+autopep8==2.0.4        # Auto-formatter
+ipython==8.18.1
+
+  
